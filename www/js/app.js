@@ -4,7 +4,10 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers'])
+angular.module('jsconfuy', [
+  'ionic',
+  'jsconfuy.controllers'
+])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -22,7 +25,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
-
+  
   .state('app', {
     url: "/app",
     abstract: true,
@@ -30,42 +33,46 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'AppCtrl'
   })
 
-  .state('app.search', {
-    url: "/search",
+  .state('app.speakers', {
+    url: "/speakers",
     views: {
       'menuContent': {
-        templateUrl: "templates/search.html"
+        templateUrl: "templates/speakers.html",
+        controller: 'SpeakersCtrl'
       }
     }
   })
 
-  .state('app.browse', {
-    url: "/browse",
+  .state('app.venue', {
+    url: "/venue",
     views: {
       'menuContent': {
-        templateUrl: "templates/browse.html"
+        templateUrl: "templates/venue.html",
+        controller: 'VenueCtrl'
       }
     }
   })
-    .state('app.playlists', {
-      url: "/playlists",
-      views: {
-        'menuContent': {
-          templateUrl: "templates/playlists.html",
-          controller: 'PlaylistsCtrl'
-        }
-      }
-    })
 
-  .state('app.single', {
-    url: "/playlists/:playlistId",
+  .state('app.agenda', {
+    url: "/agenda",
     views: {
       'menuContent': {
-        templateUrl: "templates/playlist.html",
-        controller: 'PlaylistCtrl'
+        templateUrl: "templates/agenda.html",
+        controller: 'AgendaCtrl'
+      }
+    }
+  })
+
+  .state('app.event', {
+    url: "/event/:eventId",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/event.html",
+        controller: 'EventCtrl'
       }
     }
   });
+
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/agenda');
 });
