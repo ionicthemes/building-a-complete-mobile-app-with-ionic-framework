@@ -3,12 +3,12 @@
     <span>Agenda</span>
   </ion-nav-title>
 
-  <ion-tabs class="tabs-striped tabs-top tabs-color-light tabs-background-positive">
+  <ion-tabs class="tabs-striped tabs-top tabs-color-light">
 
     <ion-tab class="tab-title" title="APR 24">
       <ion-pane>
         <ion-content class="padding">
-          <div agenda-event ng-repeat="event in events.day1"></div>
+          <div agenda-event ng-repeat="event in events.day1" class="agenda-event"></div>
         </ion-content>
       </ion-pane>
     </ion-tab>
@@ -16,59 +16,10 @@
     <ion-tab class="tab-title" title="APR 25">
       <ion-pane>
         <ion-content class="padding">
-          <div agenda-event ng-repeat="event in events.day2"></div>
+          <div agenda-event ng-repeat="event in events.day2" class="agenda-event"></div>
         </ion-content>
       </ion-pane>
     </ion-tab>
 
   </ion-tabs>
 </ion-view>
-
-<!-- 
-<ion-view class="agenda-view">
-  <ion-nav-title class="has-tabs-top">
-    <span>Agenda</span>
-  </ion-nav-title>
-
-  <ion-tabs class="tabs-striped tabs-top tabs-color-light tabs-background-positive">
-
-    <ion-tab title="APR 24">
-      <ion-pane>
-        <ion-content class="padding">
-          <div class="row">
-            <div class="col">
-              <span>10:00 am</span>
-              <span>to 10:50 am</span>
-            </div>
-            <a class="col col-75" style="background-color:#E6E6E6;text-decoration: none;" ui-sref="app.event({eventId: 1})">
-              <p>Hybrid apps with Ionic</p>
-              <p><span>Dayana Jabif</span></p>
-              <p>Room Bazzinga</p>
-              <div>Talk</div>
-            </a>
-          </div>
-        </ion-content>
-      </ion-pane>
-    </ion-tab>
-
-    <ion-tab title="APR 25">
-      <ion-pane>
-        <ion-content class="padding">
-          <div class="row">
-            <div class="col">
-              <span>10:50 am</span>
-              <span>to 11:20 am</span>
-            </div>
-            <a class="col col-75" style="background-color:#E6E6E6;text-decoration: none;" ui-sref="app.event({eventId: 2})">
-              <p>Ionic is the best Framework</p>
-              <p><span>Agustin Haller</span></p>
-              <p>Room Bazzinga</p>
-              <div>Talk</div>
-            </a>
-          </div>
-        </ion-content>
-      </ion-pane>
-    </ion-tab>
-
-  </ion-tabs>
-</ion-view> -->

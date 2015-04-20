@@ -1,3 +1,86 @@
 .speakers-view{
+  background: $content-bg;
 
+  .speaker
+  {
+    .item.title
+    {
+      background-color: $main-menu-bg;
+    }
+
+    .item-image
+    {
+      border-top: none;
+    }
+  }
+
+  .speaker-name{
+    text-align: center;
+    text-transform: uppercase;
+    color: $top-bar-bg;
+    font-weight: bold;
+    // font-size: 18px;
+    @include cssCalc("font-size", "#{($font-size)} + 6px");
+  }
+  .speaker-bio{
+    margin-top:0px;
+  }
+
+  .speaker-tags
+  {
+    margin-bottom: 10px;
+
+    .speaker-tags-list
+    {
+      @include flexbox();
+      @include flex-wrap(wrap);
+    }
+
+    .badge
+    {
+      position: initial;
+      margin: 4px 2px;
+      background-color: $main-menu-bg;
+    }
+
+    .speaker-tag-item
+    {
+      text-align:center;
+    }
+  }
+
+  .speaker-buttons
+  {
+    background-color: $speaker-actions-bg;
+
+    .row,
+    .col
+    {
+      padding:0px;
+    }
+
+    .button
+    {
+      margin:0px;
+      border-color: $top-bar-bg;
+      color: $top-bar-bg;
+
+      &.activated{
+        background-color: $top-bar-bg;
+        color: $top-bar-color;
+      }
+    }
+
+
+
+    .col:first-child
+    {
+      margin-right:8px;
+    }
+
+    .col:last-child
+    {
+      margin-left:8px;
+    }
+  }
 }

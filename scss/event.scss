@@ -1,0 +1,58 @@
+.nav-bar-title{
+  text-transform: capitalize;
+}
+
+.icon.button.share-event::before
+{
+  margin-top:0px !important;
+}
+
+.event-view{
+  background: $content-bg;
+
+  .speaker-image{
+    height: 100vw;
+  }
+
+  .event-details{
+    min-height: 70px;
+    padding: 22px;
+    background-color: darken($content-color, 10);
+    margin-top: -8px;
+
+    .event-title{
+      color: $top-bar-color;
+      font-size: 16px;
+      @include cssCalc("font-size", "#{($font-size)} + 4px");
+      font-weight: 500;
+      display:block;
+    }
+    .event-speakers{
+      color: $main-menu-bg;
+      @include cssCalc("font-size", "#{($font-size)} + 2px");
+      font-weight: 400;
+      display:block;
+
+
+      .event-speaker{
+        color: inherit;
+        font-weight: 600;
+      }
+
+      .event-speaker-concat{
+        color: inherit;
+        font-weight: 400;
+      }
+    }
+  }
+  .event-description{
+    @include cssCalc("font-size", "#{($font-size)} + 2px");
+    padding:20px;
+
+    ul{
+      list-style: inherit;
+      // -webkit-padding-start: 40px;
+      padding-left: 40px;
+    }
+  }
+}

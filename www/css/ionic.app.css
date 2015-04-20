@@ -7603,3 +7603,264 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+* {
+  color: #444444; }
+
+.bar.app-top-bar {
+  background-color: #254164; }
+  .bar.app-top-bar .title {
+    color: #FFFFFF !important; }
+    .bar.app-top-bar .title * {
+      color: #FFFFFF !important; }
+  .bar.app-top-bar .button {
+    color: #FFFFFF !important; }
+    .bar.app-top-bar .button * {
+      color: #FFFFFF !important; }
+
+.menu-header-bar {
+  background-color: #254164; }
+  .menu-header-bar .menu-header-bar-title {
+    color: #FFFFFF; }
+
+.loading-container .loading * {
+  color: #FFFFFF; }
+
+.platform-ios ion-list .list {
+  margin-top: 20px; }
+
+.main-menu ion-content {
+  background-color: #FFC900; }
+.main-menu .menu-header-bar-title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  margin: 0px; }
+  .main-menu .menu-header-bar-title .uy {
+    color: #254164;
+    font-weight: 600; }
+.main-menu ion-item.item {
+  border-right: none;
+  border-left: none;
+  border-color: rgba(179, 179, 179, 0.2);
+  background-color: #FFC900; }
+  .main-menu ion-item.item .item-content {
+    background-color: #FFC900;
+    padding: 20px;
+    padding-right: 60px;
+    text-align: right; }
+    .main-menu ion-item.item .item-content .icon {
+      width: 30px;
+      right: 20px;
+      left: initial; }
+    .main-menu ion-item.item .item-content .icon:before {
+      color: #254164;
+      font-size: calc(30px - 4px); }
+  .main-menu ion-item.item .item-content.activated {
+    background-color: #ffd433; }
+  .main-menu ion-item.item .menu-text {
+    color: #FFFFFF;
+    font-weight: 500; }
+.main-menu ion-item.item:first-child {
+  border-top: none; }
+.main-menu ion-item.item:last-child {
+  border-bottom: none; }
+
+.speakers-view {
+  background: #EAEAEA; }
+  .speakers-view .speaker .item.title {
+    background-color: #FFC900; }
+  .speakers-view .speaker .item-image {
+    border-top: none; }
+  .speakers-view .speaker-name {
+    text-align: center;
+    text-transform: uppercase;
+    color: #254164;
+    font-weight: bold;
+    font-size: calc(12px + 6px); }
+  .speakers-view .speaker-bio {
+    margin-top: 0px; }
+  .speakers-view .speaker-tags {
+    margin-bottom: 10px; }
+    .speakers-view .speaker-tags .speaker-tags-list {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap; }
+    .speakers-view .speaker-tags .badge {
+      position: initial;
+      margin: 4px 2px;
+      background-color: #FFC900; }
+    .speakers-view .speaker-tags .speaker-tag-item {
+      text-align: center; }
+  .speakers-view .speaker-buttons {
+    background-color: #FFFFFF; }
+    .speakers-view .speaker-buttons .row, .speakers-view .speaker-buttons .col {
+      padding: 0px; }
+    .speakers-view .speaker-buttons .button {
+      margin: 0px;
+      border-color: #254164;
+      color: #254164; }
+      .speakers-view .speaker-buttons .button.activated {
+        background-color: #254164;
+        color: #FFFFFF; }
+    .speakers-view .speaker-buttons .col:first-child {
+      margin-right: 8px; }
+    .speakers-view .speaker-buttons .col:last-child {
+      margin-left: 8px; }
+
+.venue-view .map {
+  height: calc((((100vh - 44px) * 65) /100)); }
+.venue-view .venue-location {
+  height: calc((((100vh - 44px) * (100 - 65)) /100));
+  border-bottom: none; }
+  .venue-view .venue-location .row {
+    height: 50%;
+    margin: 0px; }
+  .venue-view .venue-location .venue-name {
+    margin-bottom: 5px; }
+
+.agenda-view {
+  background: #EAEAEA; }
+  .agenda-view .tabs-striped .tabs {
+    background-color: #254164; }
+    .agenda-view .tabs-striped .tabs .tab-item {
+      max-width: none; }
+  .agenda-view .tab-title {
+    color: #FFFFFF;
+    font-size: calc(12px + 2px);
+    font-weight: 400; }
+  .agenda-view .tab-title.tab-item.tab-item-active {
+    border-color: #FFC900;
+    margin-top: 0px;
+    border-width: 0px 0px 4px 0px !important; }
+    .agenda-view .tab-title.tab-item.tab-item-active .tab-title {
+      font-weight: 600; }
+  .agenda-view .event-time {
+    margin-top: 10px; }
+    .agenda-view .event-time .time-from {
+      display: block;
+      font-size: calc(12px + 2px); }
+    .agenda-view .event-time .time-to {
+      font-size: calc(12px - 1px);
+      color: #5e5e5e;
+      display: block; }
+  .agenda-view .event-content {
+    text-decoration: none;
+    background-color: #d0d0d0;
+    background-size: 73vw;
+    background-position-y: 15%;
+    min-height: 40vw;
+    padding: 14px;
+    border-radius: 5px;
+    position: relative;
+    background-size: 100%; }
+    .agenda-view .event-content.global {
+      min-height: 20vw; }
+    .agenda-view .event-content.talk, .agenda-view .event-content.workshop, .agenda-view .event-content.keynote {
+      margin-bottom: 25px;
+      border-radius: 5px 5px 0px 0px; }
+      .agenda-view .event-content.talk .event-title, .agenda-view .event-content.talk .event-room, .agenda-view .event-content.workshop .event-title, .agenda-view .event-content.workshop .event-room, .agenda-view .event-content.keynote .event-title, .agenda-view .event-content.keynote .event-room {
+        color: #FFFFFF; }
+    .agenda-view .event-content.talk:after, .agenda-view .event-content.workshop:after, .agenda-view .event-content.keynote:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      border-radius: 5px 5px 0px 0px; }
+    .agenda-view .event-content.talk:after {
+      background-color: rgba(255, 124, 0, 0.6); }
+    .agenda-view .event-content.workshop:after {
+      background-color: rgba(0, 180, 84, 0.6); }
+    .agenda-view .event-content.keynote:after {
+      background-color: rgba(255, 57, 0, 0.6); }
+    .agenda-view .event-content .event-title {
+      font-size: calc(12px + 4px);
+      font-weight: 500;
+      margin: 0px;
+      position: relative;
+      z-index: 100; }
+    .agenda-view .event-content .event-room {
+      font-size: 12px;
+      z-index: 100;
+      position: relative;
+      margin-bottom: 0px; }
+    .agenda-view .event-content .event-speakers {
+      z-index: 100;
+      position: relative;
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 0px; }
+      .agenda-view .event-content .event-speakers * {
+        color: #FFFFFF; }
+    .agenda-view .event-content .event-type-tag {
+      position: absolute;
+      bottom: -25px;
+      left: 0px;
+      width: 100%;
+      border-radius: 0px 0px 4px 4px;
+      height: 25px;
+      line-height: 25px;
+      padding: 0px 14px; }
+      .agenda-view .event-content .event-type-tag.keynote-event {
+        background-color: #cc2e00;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #FFFFFF; }
+      .agenda-view .event-content .event-type-tag.talk-event {
+        background: #cc6300;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #FFFFFF; }
+      .agenda-view .event-content .event-type-tag.workshop-event {
+        background: #00813c;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #FFFFFF; }
+
+.nav-bar-title {
+  text-transform: capitalize; }
+
+.icon.button.share-event::before {
+  margin-top: 0px !important; }
+
+.event-view {
+  background: #EAEAEA; }
+  .event-view .speaker-image {
+    height: 100vw; }
+  .event-view .event-details {
+    min-height: 70px;
+    padding: 22px;
+    background-color: #2b2b2b;
+    margin-top: -8px; }
+    .event-view .event-details .event-title {
+      color: #FFFFFF;
+      font-size: 16px;
+      font-size: calc(12px + 4px);
+      font-weight: 500;
+      display: block; }
+    .event-view .event-details .event-speakers {
+      color: #FFC900;
+      font-size: calc(12px + 2px);
+      font-weight: 400;
+      display: block; }
+      .event-view .event-details .event-speakers .event-speaker {
+        color: inherit;
+        font-weight: 600; }
+      .event-view .event-details .event-speakers .event-speaker-concat {
+        color: inherit;
+        font-weight: 400; }
+  .event-view .event-description {
+    font-size: calc(12px + 2px);
+    padding: 20px; }
+    .event-view .event-description ul {
+      list-style: inherit;
+      padding-left: 40px; }

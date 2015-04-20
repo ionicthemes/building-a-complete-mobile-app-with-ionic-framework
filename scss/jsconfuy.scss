@@ -1,0 +1,90 @@
+@mixin cssCalc($property, $expression) {
+  #{$property}: calc(#{$expression});
+}
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex-wrap($value) {
+  flex-wrap: $value;
+  -webkit-flex-wrap: $value;
+}
+
+
+$content-bg: #EAEAEA;
+$content-color: #444444;
+
+$top-bar-bg: #254164;
+$top-bar-color: #FFFFFF;
+
+$loading-color: #FFFFFF;
+
+$main-menu-bg: #FFC900;
+$main-menu-color: #FFFFFF;
+
+$loading-color: #FFFFFF;
+
+$speaker-actions-bg: #FFFFFF;
+
+$workshop-bg-color: #00B454;
+$talk-bg-color: #FF7C00;
+$keynote-bg-color: #FF3900;
+$global-bg-color: #DDDDDD;
+$event-color: #FFFFFF;
+
+$get-directions-btn-bg: #419e61;
+$get-directions-btn-color: #FFFFFF;
+
+//App settings
+$category-margin: 20px;
+$font-size:12px;
+$menu-title-font-size: 30px;
+$venue-map-porcentage: 65;
+
+*{
+  color: $content-color;
+}
+
+.bar.app-top-bar
+{
+  background-color: $top-bar-bg;
+
+  .title
+  {
+    color: $top-bar-color !important;
+    *
+    {
+      color: $top-bar-color !important;
+    }
+  }
+
+  .button
+  {
+    color: $top-bar-color !important;
+    *
+    {
+      color: $top-bar-color !important;
+    }
+  }
+}
+
+.menu-header-bar{
+  background-color: $top-bar-bg;
+
+  .menu-header-bar-title{
+    color: $top-bar-color;
+  }
+}
+
+.loading-container .loading
+{
+  *
+  {
+    color: $loading-color;
+  }
+}

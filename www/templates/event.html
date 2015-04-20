@@ -1,26 +1,27 @@
 <ion-view class="event-view">
   <ion-nav-buttons side="right">
-    <a class="button button-icon icon ion-share" ng-click="shareEvent(event)"></a>
+    <a class="button button-icon icon ion-share share-event" ng-click="shareEvent(event)"></a>
   </ion-nav-buttons>
   <ion-nav-title>
     <span>{{event.type}}</span>
   </ion-nav-title>
   <ion-content>
+
     <ion-slide-box ng-show="event.speakers.length > 1" auto-play="true" does-continue="true">
       <ion-slide ng-repeat="speaker in event.speakers">
         <div style="width:100vw; overflow:hidden;">
-          <img ng-src="{{speaker.image}}"/>
+          <img class="speaker-image" ng-src="{{speaker.image}}"/>
         </div>
       </ion-slide>
     </ion-slide-box>
-    <img ng-show="event.speakers.length == 1" ng-src="{{event.speakers[0].image}}"/>
-    <div>
-      <span ng-bind-html="event.title"></span>
-      <span ng-show="event.speakers">By
-        <span ng-repeat="speaker in event.speakers"><b>{{speaker.name}}</b><span>{{$last ? '' : ' & '}}</span></span>
+    <img ng-show="event.speakers.length == 1" class="speaker-image" ng-src="{{event.speakers[0].image}}"/>
+    <div class="event-details">
+      <span class="event-title" ng-bind-html="event.title"></span>
+      <span ng-show="event.speakers" class="event-speakers">By
+        <span class="event-speaker" ng-repeat="speaker in event.speakers">{{speaker.name}}<span class="event-speaker-concat">{{$last ? '' : ' & '}}</span></span>
       </span>
     </div>
-    <div>
+    <div class="event-description">
       <p ng-bind-html="event.description"></p>
     </div>
   </ion-content>

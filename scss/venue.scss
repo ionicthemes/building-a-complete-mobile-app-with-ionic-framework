@@ -1,0 +1,24 @@
+.venue-view
+{
+  .map
+  {
+    @include cssCalc("height", "(((100vh - #{($bar-height)}) * #{($venue-map-porcentage)}) /100)");
+  }
+
+  .venue-location
+  {
+    @include cssCalc("height", "(((100vh - #{($bar-height)}) * (100 - #{($venue-map-porcentage)})) /100)");
+    border-bottom: none;
+
+    .row
+    {
+      height: 50%;
+      margin:0px;
+    }
+
+    .venue-name
+    {
+      margin-bottom:5px;
+    }
+  }
+}
