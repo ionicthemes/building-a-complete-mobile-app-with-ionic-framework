@@ -1,0 +1,298 @@
+[
+  {
+    "name":"Jeremy Morrell",
+    "bio":"Jeremy is a frontend engineer at Facebook working on one of the world's \nlargest React applications. When not at work he's most likely to be found \nin the mountains.\n",
+    "img":"img/speakers/jeremy_morrell.png",
+    "company":"Facebook",
+    "twitter":"JeremyMorrell",
+    "tags":["React", "Facebook"],
+    "event_id":"23"
+  },
+  {
+    "name":"Julián Duque",
+    "bio":"Developer and Educator by Passion, Engineer at NodeSource, io.js contributor and evangelist, Organizer of MedellinJS and JSConf Colombia.\n",
+    "img":"img/speakers/julian_duque.jpg",
+    "company":"NodeSource",
+    "twitter":"julian_duque",
+    "tags":["NodeJS", "io.js"],
+    "event_id":"48"
+  },
+  {
+    "name":"Alex Sexton",
+    "bio":"Alex Sexton is a Product Engineer at Stripe. He lives in Austin, Texas USA, and is an avid open source user and contributor. He is on the jQuery Board of Directors, the Dojo Foundation Board, and the Modernizr team. He is deeply interested in open standards, accessibility, performance, and internationalization.\n",
+    "img":"img/speakers/alex_sexton.jpg",
+    "company":"Stripe",
+    "twitter":"SlexAxton",
+    "tags":["Stripe", "jQuery", "Dojo", "Modernizr"],
+    "event_id":"3"
+  },
+  {
+    "name":"James Halliday",
+    "bio":"I enjoy writing tiny modules that do one thing well.\nI like unix, leveldb, streams, and mad science experiments.\n",
+    "img":"img/speakers/james_halliday.jpg",
+    "company":"Browserify",
+    "twitter":"substack",
+    "tags":["Browserify"],
+    "event_id":"28"
+  },
+  {
+    "name":"Mathias Bynens",
+    "bio":"Mathias is a Belgian web standards freak. He likes HTML, CSS, JavaScript, Unicode, performance, and security. At Opera Software he’s a member of the Developer Relations team.\n",
+    "img":"img/speakers/mathias_bynens.jpg",
+    "company":"Opera",
+    "twitter":"mathias",
+    "tags":["Opera"],
+    "event_id":"18"
+  },
+  {
+    "name":"Eric Schoffstall",
+    "bio":"Eric Schoffstall (aka Contra) is a co-founder at Fractal currently living in San Francisco. When he isn't working on one of his 210 open source projects, he is usually skateboarding or climbing mountains around the world. Gulp creator.\n",
+    "img":"img/speakers/eric_schoffstall.jpg",
+    "company":"Fractal",
+    "twitter":"contrahacks",
+    "tags":["Gulp", "Fractal"],
+    "event_id":"17"
+  },
+  {
+    "name":"Angelina Fabbro",
+    "bio":"Angelina Fabbro works for DigitalOcean, and before that, was on the Developer Tools team at Mozilla. Polyglot but prefers JavaScript and Python, Sublime Text on localhost and vim remotely, and earl grey tea to most anything else.\n",
+    "img":"img/speakers/angelina_fabbro.jpg",
+    "company":"Digital Ocean",
+    "twitter":"hopefulcyborg",
+    "tags":["Digital Ocean", "Mozilla"],
+    "event_id":"47"
+  },
+  {
+    "name":"Sam Saccone",
+    "bio":"Sam Saccone is an engineer working at MojoTech, a web consulting in Rhode Island. He leads the marionettejs project and when not in front of his computer enjoys a nice cup of tea and his mandolin.\n",
+    "img":"img/speakers/sam_saccone.jpg",
+    "company":"Mojotech",
+    "twitter":"samccone",
+    "tags":["marionettejs"],
+    "event_id":"30"
+  },
+  {
+    "name":"Jean-Charles Sisk",
+    "bio":"Engineer at PayPal based out of Boston, Massachusetts. Working on kraken-js framework. In addition to his opensource work, he helps to support the PayPal organization as they continue to adopt NodeJS at every level.\n",
+    "img":"img/speakers/jean_charles_sisk.jpg",
+    "company":"PayPal",
+    "twitter":"jcse",
+    "tags":["PayPal", "kraken-js", "NodeJS"],
+    "event_id":"11"
+  },
+  {
+    "name":"Chris Miller",
+    "bio":"Chris Miller is a generalist developer based in New York City. He has worked with some of the largest sites on the Internet and loves thinking about large scale engineering problems.\n",
+    "img":"img/speakers/chris_miller.jpg",
+    "company":"ScalablePath",
+    "twitter":"ee99ee",
+    "tags":["Growth"],
+    "event_id":"10"
+  },
+  {
+    "name":"Valeri Karpov",
+    "bio":"Valeri Karpov is a NodeJS Engineer for MongoDB and maintains numerous MongoDB-related npm modules. He's the author of Professional AngularJS and gave the MEAN stack its name\n",
+    "img":"img/speakers/valeri_karpov.png",
+    "company":"MongoDB",
+    "twitter":"code_barbarian",
+    "tags":["NodeJS", "MongoDB", "AngularJS"],
+    "event_id":"34"
+  },
+  {
+    "name":"Jaydson Gomes",
+    "bio":"A JavaScript enthusiast who develops things at Terra Networks, organizes the BrazilJS Conf, created the ES6Rocks.com website and built the Harmonic static site generator.\n",
+    "img":"img/speakers/jaydson_gomes.jpg",
+    "company":"Terra",
+    "twitter":"jaydson",
+    "tags":["ES6Rocks"],
+    "event_id":"36"
+  },
+  {
+    "name":"Nicolas Bevacqua",
+    "bio":"Nico is an enthusiastic JavaScript hacker, author, and public speaker based in Buenos Aires, Argentina. He works as a freelancer and contributes to the open-source community on a daily basis.\n",
+    "img":"img/speakers/nicolas_bevacqua.jpg",
+    "company":"",
+    "twitter":"nzgb",
+    "tags":["High Performance"],
+    "event_id":"15"
+  },
+  {
+    "name":"Adolfo Builes",
+    "bio":"Based in Medellín (Colombia), Adolfo helps companies around the world\nto build applications with Ember. He is also an Ember CLI contributor\nand writer of the Ember book: Ember CLI 101\n",
+    "img":"img/speakers/adolfo_builes.jpg",
+    "company":"",
+    "twitter":"abuiles",
+    "tags":["Ember"],
+    "event_id":"41"
+  },
+  {
+    "name":"Pablo Chiappetti",
+    "bio":"26 y/o [web] developer in constant learning. Married to PHP, cheating on it with JS quite frequently. Co-host of Laravel and Meteor meetups in Buenos Aires.\n",
+    "img":"img/speakers/pablo_chiappetti.jpg",
+    "company":"",
+    "twitter":"p4bloch",
+    "tags":["Meteor"],
+    "event_id":"13"
+  },
+  {
+    "name":"Lourdes Montano",
+    "bio":"Lourdes Montano is a Front End developer who loves building responsive websites using CSS and its pre-processors. She works as Presentation Code Developer at R/GA Buenos Aires.\n",
+    "img":"img/speakers/lourdes_montano.jpg",
+    "company":"R/GA",
+    "twitter":"loumontano",
+    "tags":["Sass"],
+    "event_id":"4"
+  },
+  {
+    "name":"Martin Naumann",
+    "bio":"Martin is open source contributor and web evangelist by heart from Zurich with a decade experience from the trenches of software engineering in multiple fields. He works as a software engineer at Archilogic in front- and backend.\n",
+    "img":"img/speakers/martin_naumann.jpg",
+    "company":"Archilogic",
+    "twitter":"g33konaut",
+    "tags":["WEBGL", "WEBVR"],
+    "event_id":"7"
+  },
+  {
+    "name":"Adrián Mugnolo",
+    "bio":"Adrián has been doing web development for almost 20 years now. When\nnot writing Ruby or JavaScript, you’ll find him snowboarding\nsomewhere. An organizer of Montevideo’s Ember and Ruby meet-ups,\nAdrián is a developer at WyeWorks.\n",
+    "img":"img/speakers/adrian_mugnolo.png",
+    "company":"Wyeworks",
+    "twitter":"xymbol",
+    "tags":["Ember"],
+    "event_id":"29"
+  },
+  {
+    "name":"Sergio Gianazza",
+    "bio":"A wanabe-musician who became a developer. Previously a Java developer, now he works for Avi-on as Javascript developer. Co-founder of Ideas Ágiles, co-organizer of the Javascript Meetup group in Buenos Aires, he came to ease the pain of the musicians co-founding Amplified.\n",
+    "img":"img/speakers/sergio_gianazza.jpg",
+    "company":"AMPLIFIED",
+    "twitter":"sgianazza",
+    "tags":["Functional Reactive Programming"],
+    "event_id":"22"
+  },
+  {
+    "name":"Rafael Specht",
+    "bio":"Rafael graduated as a telecommunication technologist, has 5 years of experience working as web developer, currently on Grupo RBS, trying to achieve better experience through the open web!\n",
+    "img":"img/speakers/rafael_specht.jpg",
+    "company":"Grupo RBS",
+    "twitter":"rafael_sps",
+    "tags":["Web Audio API"],
+    "event_id":"33"
+  },
+  {
+    "name":"Martin Gontovnikas",
+    "bio":"Gonto is a tech nerd that works as a Developer Advocate at Auth0. He <3 OSS, meat and a good beer in that order. He has built Restangular, factory_pal, angular-jwt and many other OSS projects!\n",
+    "img":"img/speakers/martin_gontovnikas.jpg",
+    "company":"Auth0",
+    "twitter":"mgonto",
+    "tags":["Auth0", "Angular"],
+    "event_id":"21"
+  },
+  {
+    "name":"Leonardo Garcia Crespo",
+    "bio":"Fan of technology, always learning new things. Digging the functional programing surface, and loving it. Working for SCVSoft as a Javascript and Ruby developer. Co-organizer of the Javascript Meetup group in Buenos Aires. Co-founder of Amplified, to bring light to the music bands out there.\n",
+    "img":"img/speakers/leonardo_garcia_crespo.jpg",
+    "company":"Amplified",
+    "twitter":"leogcrespo",
+    "tags":["Functional Reactive Programming"],
+    "event_id":"22"
+  },
+  {
+    "name":"Guillermo Paz",
+    "bio":"Guille Paz is a proactive front-end developer. He loves web standards and open source projects. Co-organizer of the BAFrontend meetup in Buenos Aires. He works as front-end developer at @getmango.\n",
+    "img":"img/speakers/guillermo_paz.jpg",
+    "company":"Mango",
+    "twitter":"pazguille",
+    "tags":["ES6"],
+    "event_id":"38"
+  },
+  {
+    "name":"Ciro Nunes",
+    "bio":"Front-end Engineer at Questrade, Google Developer Expert in AngularJS.\n",
+    "img":"img/speakers/ciro_nunes.jpg",
+    "company":"Questrade",
+    "twitter":"cironunesdev",
+    "tags":["Google", "AngularJS"],
+    "event_id":"8"
+  },
+  {
+    "name":"Matias Volpe",
+    "bio":"Matias is a UI Software Engineer at Intel based in Cordoba.\nHe is engineer by default, educator by passion and addicted to the Web, HTML5, WebGL, performance, functional programming and harmonic software design.\n",
+    "img":"img/speakers/matias_volpe.jpg",
+    "company":"Intel",
+    "tags":["Intel", "Transducers"],
+    "event_id":"43"
+  },
+  {
+    "name":"Santiago Ferreira",
+    "bio":"Santiago is passionate about working with Ruby, JavaScript (Ember in\nparticular) and open software. An avid reader of books on paper, he’s\nalso interested in agile methodologies. Santiago is a developer at\nWyeWorks.\n",
+    "img":"img/speakers/santiago_ferreira.png",
+    "company":"WyeWorks",
+    "twitter":"san650",
+    "tags":["Ember"],
+    "event_id":"29"
+  },
+  {
+    "name":"Dayana Jabif",
+    "bio":"Dayu is a full stack developer and javascript lover. Always smiling. Avid learner. Coding around the world, currently running @ionicUruguay\n",
+    "img":"img/speakers/dayana_jabif.jpg",
+    "company":"",
+    "twitter":"dayujabif",
+    "tags":["Ionic"],
+    "event_id":"37"
+  },
+  {
+    "name":"Damian Schenkelman",
+    "bio":"Damian is an engineer at Auth0 working on making the core scalable and performant. He loves learning about JavaScript, its performance specifics and contributing to OSS.\n",
+    "img":"img/speakers/damian_schenkelman.jpg",
+    "company":"Auth0",
+    "twitter":"dschenkelman",
+    "tags":["Auth0", "Parallelization"],
+    "event_id":"16"
+  },
+  {
+    "name":"Agustin Haller",
+    "bio":"25 y/o nomad. Hacking around the world one Starbucks at a time. <3 JS and learning new things. Now full time ionic developer.\n",
+    "img":"img/speakers/agustin_haller.jpg",
+    "company":"",
+    "twitter":"agustinhaller",
+    "tags":["Ionic"],
+    "event_id":"37"
+  },
+  {
+    "name":"Michael Cetrulo",
+    "bio":"Michael is a polyglot software developer with interest in dynamic and functional languages, currently working as a freelance contractor he spends the time building random stuff around the web.\n",
+    "img":"img/speakers/michael_cetrulo.jpg",
+    "company":"Toptal",
+    "twitter":"gonna_hate",
+    "tags":["Websockets"],
+    "event_id":"5"
+  },
+  {
+    "name":"Maximiliano Fierro",
+    "bio":"JavaScript Developer. Solutions Engineer at Sencha Inc. Co-organizer of LaPlataJS meetups.\n",
+    "img":"img/speakers/maximiliano_fierro.jpg",
+    "company":"Sencha",
+    "twitter":"elmasse",
+    "tags":["Sencha"],
+    "event_id":"40"
+  },
+  {
+    "name":"Mathias Rodriguez",
+    "bio":"Code refactor, Bash shell, NodeJS and tech enthusiast, I work as a mobile developer at Infocorp. Everyday trying to push JS to the limits and hoping to use my Leap Motion someday\n",
+    "img":"img/speakers/mathias_rodriguez.png",
+    "company":"Infocorp",
+    "twitter":"enanox_m",
+    "tags":["Typescript"],
+    "event_id":"45"
+  },
+  {
+    "name":"Matthew Podwysocki",
+    "bio":"Matthew Podwysocki is a Principal Software Developer and self-described Open Sourcerer at Microsoft.  He currently works on the Reactive Extensions Team focusing on all languages including JavaScript and the Thali Project, focusing on data streams and the Internet of Things.\n",
+    "img":"img/speakers/matthew_podwysocki.jpg",
+    "company":"Microsoft",
+    "twitter":"mattpodwysocki",
+    "tags":["Microsoft", "Reactive Programming"],
+    "event_id":"31"
+  }
+]

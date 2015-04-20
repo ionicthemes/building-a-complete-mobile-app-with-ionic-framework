@@ -1,8 +1,17 @@
 <ion-view class="event-view">
   <ion-nav-title>
-    <span>Event</span>
+    <span>{{event.type}}</span>
   </ion-nav-title>
   <ion-content>
-    <h1>Event {{eventId}}</h1>
+    <img ng-src="{{event.speakers[0].image}}"/>
+    <div>
+      <span ng-bind-html="event.title"></span>
+      <span ng-show="event.speakers">By
+        <span ng-repeat="speaker in event.speakers"><b>{{speaker.name}}</b><span>{{$last ? '' : ' & '}}</span></span>
+      </span>
+    </div>
+    <div>
+      <p ng-bind-html="event.description"></p>
+    </div>
   </ion-content>
 </ion-view>

@@ -5,6 +5,33 @@
 
   <ion-tabs class="tabs-striped tabs-top tabs-color-light tabs-background-positive">
 
+    <ion-tab class="tab-title" title="APR 24">
+      <ion-pane>
+        <ion-content class="padding">
+          <div agenda-event ng-repeat="event in events.day1"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+
+    <ion-tab class="tab-title" title="APR 25">
+      <ion-pane>
+        <ion-content class="padding">
+          <div agenda-event ng-repeat="event in events.day2"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+
+  </ion-tabs>
+</ion-view>
+
+<!-- 
+<ion-view class="agenda-view">
+  <ion-nav-title class="has-tabs-top">
+    <span>Agenda</span>
+  </ion-nav-title>
+
+  <ion-tabs class="tabs-striped tabs-top tabs-color-light tabs-background-positive">
+
     <ion-tab title="APR 24">
       <ion-pane>
         <ion-content class="padding">
@@ -44,4 +71,4 @@
     </ion-tab>
 
   </ion-tabs>
-</ion-view>
+</ion-view> -->
