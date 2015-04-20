@@ -1,0 +1,162 @@
+.agenda-view
+{
+  background: $content-bg;
+
+  .tabs-striped .tabs
+  {
+    background-color: $top-bar-bg;
+
+    .tab-item
+    {
+      max-width: none;
+    }
+  }
+
+  .tab-title{
+    color: $top-bar-color;
+    @include cssCalc("font-size", "#{($font-size)} + 2px");
+    font-weight:400;
+  }
+
+  .tab-title.tab-item.tab-item-active{
+
+    border-color: $main-menu-bg;
+    margin-top: 0px;
+    border-width: 0px 0px 4px 0px !important;
+
+    .tab-title{
+      font-weight:600;
+    }
+
+  }
+
+  .event-time{
+    margin-top:10px;
+
+    .time-from{
+      display: block;
+      @include cssCalc("font-size", "#{($font-size)} + 2px");
+    }
+
+    .time-to{
+      @include cssCalc("font-size", "#{($font-size)} - 1px");
+      color: lighten($content-color, 10);
+      display: block;
+    }
+  }
+
+  .event-content
+  {
+    text-decoration: none;
+    background-color: darken($global-bg-color, 5);
+    background-size: 73vw;
+    background-position-y: 15%;
+    min-height: 40vw;
+    padding: 14px;
+    border-radius: 5px;
+    position: relative;
+    background-size: 100%;
+
+    &.global{
+      min-height: 20vw;
+    }
+
+    &.talk, &.workshop, &.keynote
+    {
+      margin-bottom: 25px;
+      border-radius: 5px 5px 0px 0px;
+
+      .event-title, .event-room{
+        color: $event-color;
+      }
+    }
+
+    &.talk:after, &.workshop:after, &.keynote:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      border-radius: 5px 5px 0px 0px;
+    }
+
+    &.talk:after{
+      background-color: rgba($talk-bg-color, 0.6);
+    }
+    &.workshop:after{
+      background-color: rgba($workshop-bg-color, 0.6);
+    }
+    &.keynote:after{
+      background-color: rgba($keynote-bg-color, 0.6);
+    }
+
+
+    .event-title{
+      @include cssCalc("font-size", "#{($font-size)} + 4px");
+      font-weight:500;
+      margin:0px;
+      position:relative;
+      z-index: 100;
+    }
+
+    .event-room{
+      font-size:$font-size;
+      z-index: 100;
+      position:relative;
+      margin-bottom:0px;
+    }
+
+    .event-speakers
+    {
+      z-index: 100;
+      position:relative;
+      font-size:$font-size;
+      font-weight:500;
+      margin-bottom:0px;
+      *
+      {
+        color:$event-color;
+      }
+    }
+
+    .event-type-tag
+    {
+      position: absolute;
+      bottom: -25px;
+      left: 0px;
+      width: 100%;
+      border-radius: 0px 0px 4px 4px;
+      height: 25px;
+      line-height: 25px;
+      padding: 0px 14px;
+
+      &.keynote-event
+      {
+        background-color: darken($keynote-bg-color, 10);
+        text-transform: capitalize;
+        font-weight: 500;
+        color: $event-color;
+      }
+
+      &.talk-event
+      {
+        background: darken($talk-bg-color, 10);
+        text-transform: capitalize;
+        font-weight: 500;
+        color: $event-color;
+      }
+
+      &.workshop-event
+      {
+        background: darken($workshop-bg-color, 10);
+        text-transform: capitalize;
+        font-weight: 500;
+        color: $event-color;
+      }
+    }
+
+
+  }
+}

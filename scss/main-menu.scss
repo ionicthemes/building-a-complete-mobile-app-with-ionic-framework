@@ -1,0 +1,82 @@
+.platform-ios
+{
+  ion-list .list
+  {
+    margin-top: $ios-statusbar-height;
+  }
+}
+
+.main-menu
+{
+  ion-content
+  {
+    background-color: $main-menu-bg;
+  }
+
+  .menu-header-bar-title
+  {
+    font-size: $menu-title-font-size;
+    font-weight: 500;
+    color: $main-menu-color;
+    position: absolute;
+    bottom: $category-margin/2;
+    right: $category-margin;
+    margin:0px;
+
+    .uy
+    {
+      color: $top-bar-bg;
+      font-weight: 600;
+    }
+  }
+
+  ion-item.item
+  {
+    border-right:none;
+    border-left:none;
+    border-color: rgba(darken($main-menu-color, 30), .2);
+    background-color: $main-menu-bg;
+
+    .item-content
+    {
+      background-color: $main-menu-bg;
+      padding: $category-margin;
+      padding-right: $category-margin * 3;
+      text-align:right;
+
+      .icon
+      {
+        width: ($category-margin * 3)/2;
+        right: $category-margin;
+        left: initial;
+      }
+
+      .icon:before
+      {
+        color: $top-bar-bg;
+        @include cssCalc("font-size", "#{($menu-title-font-size)} - 4px");
+      }
+    }
+
+    .item-content.activated
+    {
+      background-color: lighten($main-menu-bg, 10);
+    }
+
+    .menu-text
+    {
+      color: $main-menu-color;
+      font-weight:500;
+    }
+  }
+
+  ion-item.item:first-child
+  {
+    border-top:none;
+  }
+
+  ion-item.item:last-child
+  {
+    border-bottom:none;
+  }
+}

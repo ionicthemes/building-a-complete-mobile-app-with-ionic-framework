@@ -1,0 +1,714 @@
+[
+  {
+    "id":"1",
+    "title":"Registration & Breakfast",
+    "time_from":"8:15 am",
+    "time_to":"9:45 am",
+    "type":"global",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"2",
+    "title":"Opening",
+    "time_from":"9:45 am",
+    "time_to":"10:00 am",
+    "type":"global",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"3",
+    "title":"Build your own Bootstrap",
+    "time_from":"10:00 am",
+    "time_to":"10:50 am",
+    "type":"keynote",
+    "speakers":[
+      {
+        "name":"Alex Sexton",
+        "image":"img/speakers/alex_sexton.jpg"
+      }
+    ],
+    "background_img":"img/speakers/alex_sexton.jpg",
+    "description":"Bootstrap popularized the idea of a CSS Component Library. It's a very well thought-out library, and it's extremely useful, well-tested, and well-architected. However, your app probably has needs, both in functionality and in design, that Bootstrap doesn't offer. You should make your own Bootstrap, custom for your app! You can base it off of the real deal, or start from scratch, but making a library of components for your app or website allows you superior testability, accessibility, reliability and updatability (if it ends in 'ility', you've got it!). Alex helped build 'Bootstripe' for Stripe's new user dashboard, and he's got a lot of tips for how to create, test, and maintain a library that's specific to your app or your company's needs.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"4",
+    "title":"Sass Maps: working with responsive breakpoints.",
+    "time_from":"10:50 am",
+    "time_to":"11:15 am",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Lourdes Montano",
+        "image":"img/speakers/lourdes_montano.jpg"
+      }
+    ],
+    "background_img":"img/speakers/lourdes_montano.jpg",
+    "description":"When working with responsive design, dealing with breakpoints can get messy. Sass maps are a clean and powerful way to manage this data. In this talk we’ll see how they work, its usage and some useful functions.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"5",
+    "title":"Websockets for real - real time",
+    "time_from":"10:50 am",
+    "time_to":"12:00 pm",
+    "type":"workshop",
+    "speakers":[
+      {
+        "name":"Michael Cetrulo",
+        "image":"img/speakers/michael_cetrulo.jpg"
+      }
+    ],
+    "background_img":"img/speakers/michael_cetrulo.jpg",
+    "description":"",
+    "room":""
+  },
+  {
+    "id":"6",
+    "title":"Coffee Break",
+    "time_from":"11:15 am",
+    "time_to":"11:30 am",
+    "type":"global",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"7",
+    "title":"To 3D and beyond: WebGL & WebVR for fun and profit",
+    "time_from":"11:30 am",
+    "time_to":"12:00 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Martin Naumann",
+        "image":"img/speakers/martin_naumann.jpg"
+      }
+    ],
+    "background_img":"img/speakers/martin_naumann.jpg",
+    "description":"In this talk you will learn how to unlock the 3rd dimension on the web and use it to create impressive new visualisations, stories and experiences. You will see how WebGL can then be taken even further by using technologies such as Oculus Rift, Google Cardboard or LEAPMotion with WebVR to enable truly immersive experiences right from your browser.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"21",
+    "title":"Descentralizing the web: the REAL backendless apps",
+    "time_from":"12:00 pm",
+    "time_to":"12:25 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Martin Gontovnikas",
+        "image":"img/speakers/martin_gontovnikas.jpg"
+      }
+    ],
+    "background_img":"img/speakers/martin_gontovnikas.jpg",
+    "description":"In the last couple of years, we have seen a huge shift on how we write applications. Logic is being pushed to the client (browser, native apps, iot).  However, all powerful apps still need a backend API. Lately, new services have emerged which let you create an API without having to code it. But with the introduction of more lightweight ways of computing like Docker and token based security we can go even further. What if we don't need any server at all and we can run any custom code? What if we could actually write the code that will run in the server in our FrontEnd apps?  In this session we will go over a new way of writing completely backendless applications using CoreOs, Docker, Token based secuity, ES6 ans NodeJS",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"9",
+    "title":"Lunch",
+    "time_from":"12:25 pm",
+    "time_to":"13:55 pm",
+    "type":"global",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"10",
+    "title":"Patterns for Growth and Scale",
+    "time_from":"13:55 pm",
+    "time_to":"14:25 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Chris Miller",
+        "image":"img/speakers/chris_miller.jpg"
+      }
+    ],
+    "background_img":"img/speakers/chris_miller.jpg",
+    "description":"The challenges faced by websites with 10 active users are vastly different than those faced by sites with tens of millions of users. Different infrastructure, but also a different mentality in application development. My talk will cover patterns I have seen over years of working with some of the biggest sites on the Internet. Things such as how to think about application structure, how to build frontend components for reusable and disposable code, how to approach feature ramping and kill switches, and how to build in full-stack analytics. This talk will apply to both browser-based application and touch a bit on how this can apply to Node.js applications. I will use real-world examples from my experience with Tumblr, The Huffington Post, and other high traffic sites.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"11",
+    "title":"Support an Army",
+    "time_from":"14:25 pm",
+    "time_to":"14:50 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Jean-Charles Sisk",
+        "image":"img/speakers/jean_charles_sisk.jpg"
+      }
+    ],
+    "background_img":"img/speakers/jean_charles_sisk.jpg",
+    "description":"Lessons learned in growing Node at PayPal. In this talk, Jean-Charles will go into the trials and tribulations of growing node adoption at PayPal, a few years after it was first introduced. From training developers, addressing concerns, and growing your software organically, he's here to help you learn from his mistakes and prepare for what's to come as you help your company adopt NodeJS.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"13",
+    "title":"Meteor. Isomorphic JS, the easy way",
+    "time_from":"14:25 pm",
+    "time_to":"16:15 pm",
+    "type":"workshop",
+    "speakers":[
+      {
+        "name":"Pablo Chiappetti",
+        "image":"img/speakers/pablo_chiappetti.jpg"
+      }
+    ],
+    "background_img":"img/speakers/pablo_chiappetti.jpg",
+    "description":"Meteor defines itself as “a complete open source platform for building web and mobile apps in pure JavaScript”. In this workshop, I’ll try to prove you that they are not just talking. Meteor is production ready as we speak, and it can help you bring your ideas to life faster.We are going to review the basics of Meteor, its main features, and the key concepts you need to know to start building apps with it. We’ll also build a multi-user, real-time application together, from zero to deploy.You will leave this workshop with a better understanding of how all the magic happens behind the curtains, and well aware of Meteor’s potential for rapid application development.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"14",
+    "title":"Coffee Break",
+    "time_from":"14:50 pm",
+    "time_to":"15:05 pm",
+    "type":"global",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"15",
+    "title":"High Performance in the Critical Rendering Path",
+    "time_from":"15:05 pm",
+    "time_to":"15:35 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Nicolas Bevacqua",
+        "image":"img/speakers/nicolas_bevacqua.jpg"
+      }
+    ],
+    "background_img":"img/speakers/nicolas_bevacqua.jpg",
+    "description":"This talk covers the past, present and future of web application performance when it comes to delivery optimization. I'll start by glancing over what you're already doing -- minifying your static assets, bundling them together, and using progressive enhancement techniques. Then I'll move on to what you should be doing -- optimizing TCP network delivery, inlining critical CSS, deferring font loading and CSS so that you don't block the rendering path, and of course deferring JavaScript. Afterwards we'll look at the future, and what HTTP 2.0 has in store for us, going full circle and letting us forego hacks of the past like bundling and minification.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"16",
+    "title":"Getting over Moore's Law: Parallelization using JavaScript in the browser",
+    "time_from":"15:35 pm",
+    "time_to":"16:00 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Damian Schenkelman",
+        "image":"img/speakers/damian_schenkelman.jpg"
+      }
+    ],
+    "background_img":"img/speakers/damian_schenkelman.jpg",
+    "description":"Modern computers and devices continue the trend of having a larger number of CPU cores instead of cores with more computing power. That means that the days of waiting for Moore's Law to take effect so our apps run faster are over, and we, developers, need to start adventuring into the land of parallelism. In this talk we will go over some of the currently available approaches (and ongoing efforts) that make it possible to take advantage of parallelism in the browser using JavaScript. This includes not only the widely spread concept of Web Workers, but also Single Instruction Multiple Data (SIMD) and ParallelJS.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"16",
+    "title":"Coffee Break",
+    "time_from":"16:00 pm",
+    "time_to":"16:15 pm",
+    "type":"global",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"17",
+    "title":"Gulp JS",
+    "time_from":"16:15 pm",
+    "time_to":"16:45 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Eric Schoffstall",
+        "image":"img/speakers/eric_schoffstall.jpg"
+      }
+    ],
+    "background_img":"img/speakers/eric_schoffstall.jpg",
+    "description":"",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"18",
+    "title":"JavaScript ♥ Unicode",
+    "time_from":"16:45 pm",
+    "time_to":"17:10 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Mathias Bynens",
+        "image":"img/speakers/mathias_bynens.jpg"
+      }
+    ],
+    "background_img":"img/speakers/mathias_bynens.jpg",
+    "description":"In this talk we’ll take a look at the various ways JavaScript relies on Unicode, what the consequences are for JavaScript developers wishing to support full Unicode, and how the upcoming ECMAScript 6 (or ES 2015 as it’s being called nowadays) will improve this.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"19",
+    "title":"Node and the Internet of Things",
+    "time_from":"16:15 pm",
+    "time_to":"18:25 pm",
+    "type":"workshop",
+    "speakers":[
+      {
+        "name":"Julián Duque",
+        "image":"img/speakers/julian_duque.jpg"
+      }
+    ],
+    "background_img":"img/speakers/julian_duque.jpg",
+    "description":"In this workshop you'll learn how to implement an IoT service using Node. We will use Arduino with Johnny-Five as IoT powered device and we will develop an MQTT server to receive realtime information from devices, also we will evaluate some Cloud Platforms to work with IoT.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"20",
+    "title":"Coffee Break",
+    "time_from":"17:10 pm",
+    "time_to":"17:25 pm",
+    "type":"global",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"8",
+    "title":"The awesomeness of Angular 2",
+    "time_from":"17:25 pm",
+    "time_to":"17:55 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Ciro Nunes",
+        "image":"img/speakers/ciro_nunes.jpg"
+      }
+    ],
+    "background_img":"img/speakers/ciro_nunes.jpg",
+    "description":"",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"22",
+    "title":"Functional reactive programming for web apps",
+    "time_from":"17:55 pm",
+    "time_to":"18:25 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Sergio Gianazza",
+        "image":"img/speakers/sergio_gianazza.jpg"
+      },
+      {
+        "name":"Leonardo Garcia Crespo",
+        "image":"img/speakers/leonardo_garcia_crespo.jpg"
+      }
+    ],
+    "background_img":"",
+    "description":"This talk aims to strengthen the concepts of FRP and show how to use them to develop highly interactive applications. We will show how to create more accurate, simple and readable web applications declaring them as a stream of inputs that get reduced over the application state and then mapped into a rendering function. We will show real-world examples of our own application, amplifiedapp.com covering your recommended daily dose of code. This talk does not aim to be an introduction to FRP, but to show the benefits of applying these concepts in the real world.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"23",
+    "title":"Flux in large applications",
+    "time_from":"18:25 pm",
+    "time_to":"19:10 pm",
+    "type":"keynote",
+    "speakers":[
+      {
+        "name":"Jeremy Morrell",
+        "image":"img/speakers/jeremy_morrell.png"
+      }
+    ],
+    "background_img":"img/speakers/jeremy_morrell.png",
+    "description":"",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"24",
+    "title":"Close",
+    "time_from":"19:10 pm",
+    "type":"global",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"25",
+    "title":"Drink Up!",
+    "time_from":"20:30 pm",
+    "type":"global",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"26",
+    "title":"Registration & Breakfast",
+    "time_from":"9:00 am",
+    "time_to":"10:00 am",
+    "type":"global",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"27",
+    "title":"Opening",
+    "time_from":"10:00 am",
+    "time_to":"10:05 am",
+    "type":"global",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"28",
+    "title":"The offline distributed web",
+    "time_from":"10:05 am",
+    "time_to":"10:55 am",
+    "type":"keynote",
+    "speakers":[
+      {
+        "name":"James Halliday",
+        "image":"img/speakers/james_halliday.jpg"
+      }
+    ],
+    "background_img":"img/speakers/james_halliday.jpg",
+    "description":"I will cover some techniques for building offline, distributed web applications. We can build services that don't depend on centralized infrastructure with the web we have today, it just takes some very different approaches.",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"29",
+    "title":"Ember bootcamp: your first Ember app!",
+    "time_from":"10:05 am",
+    "time_to":"12:30 am",
+    "type":"workshop",
+    "speakers":[
+      {
+        "name":"Santiago Ferreira",
+        "image":"img/speakers/santiago_ferreira.png"
+      },
+      {
+        "name":"Adrián Mugnolo",
+        "image":"img/speakers/adrian_mugnolo.png"
+      }
+    ],
+    "description":"So, you’ve heard about Ember. You know it’s the framework for ambitious web applications. But somehow you’ve never found the time to try it for yourself. Look no further! A new workshop, presented by Montevideo meet-up organizers Adrián Mugnolo and Santiago Ferreira, will guide you through the concepts and practical steps required to build a simple application using Ember.<br><br>Using a variety of coding activities, the workshop will cover the following topics: Ember CLI project setup and structure, templates and data binding, computed properties, routing, actions, components, add-ons, controllers, Ember Data, testing, and deployment. Don’t forget to bring your own computer! During the workshop, a handful of experienced embereños will be answering questions and helping with any issues you might encounter. Caffeine in various forms will be provided!<br><br>At the end of the workshop, Ember CLI contributor and author of “Ember CLI 101” Adolfo Builes, will be joining us for an open Q&A session. All questions are welcome! We’re interested in your continued development so, once the conference is over, we’ll be providing ongoing support through a dedicated Slack channel for all attendees.",
+    "background_img":"img/ember.png",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"30",
+    "title":"Recreating a dialup modem in JavaScript",
+    "time_from":"10:55 am",
+    "time_to":"11:20 am",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Sam Saccone",
+        "image":"img/speakers/sam_saccone.jpg"
+      }
+    ],
+    "background_img":"img/speakers/sam_saccone.jpg",
+    "description":"Pshhhkkkkkkrrrr​kakingkakingkakingtsh​chchchchchchchcch​<em>ding</em>ding<em>ding</em>The siren song of the dialup modem that summoned AIM and the Book of Mozilla has a language unto itself.<p>In this talk, we’ll learn how to implement an end-to-end frequency-shift keying modem, capable of sending and receiving data between computers using the Web Audio API.</p><p>By using a browser, I’ll provide an interactive session detailing how we can use javascript to encode and decode what modem tones really mean.</p>",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"47",
+    "title":"OSX automation using Javascript",
+    "time_from":"11:20 am",
+    "time_to":"11:45 am",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Angelina Fabbro",
+        "image":"img/speakers/angelina_fabbro.jpg"
+      }
+    ],
+    "background_img":"img/speakers/angelina_fabbro.jpg",
+    "description":"With the release of Yosemite, Apple made it possible for JavaScript developers to script OSX applications as a part of their automation workflows. We'll look at some examples of how to script applications, how to integrate these scripts into your existing workflow, and compare the usefulness of these techniques to classic automation solutions like Bash scripting. No knowledge of Objective C is needed - just a love of JavaScript.",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"32",
+    "title":"Coffee Break",
+    "time_from":"11:45 am",
+    "time_to":"12:00 pm",
+    "type":"global",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"33",
+    "title":"Signal Processing with JavaScript",
+    "time_from":"12:00 pm",
+    "time_to":"12:30 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Rafael Specht",
+        "image":"img/speakers/rafael_specht.jpg"
+      }
+    ],
+    "background_img":"img/speakers/rafael_specht.jpg",
+    "description":"Nowadays we have native options to deal with media signals on javascript! How can we use the available APIs to process it?<br>This talk is about amazing uses to Web Audio API and the Video tag like sampling, quantization, filtering, etc. Can we synthesize guitar effects? How javascript running on hardware can deal with this processing?",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"34",
+    "title":"Writing a MongoDB Shell in NodeJS",
+    "time_from":"12:30 pm",
+    "time_to":"12:55 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Valeri Karpov",
+        "image":"img/speakers/valeri_karpov.png"
+      }
+    ],
+    "background_img":"img/speakers/valeri_karpov.png",
+    "description":"MongoDB has been experimenting with creating a replacement for the current native C++ mongo shell in NodeJS. The shell’s language of choice is JavaScript, so rewriting it in NodeJS is a natural choice. In this talk, I’ll show off the experimental shell. I’ll also discuss the implementation details, including ECMAScript 6 proxies, the fibers module for seemingly synchronous network I/O, and NodeJS’ built-in repl module.",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"35",
+    "title":"Lunch",
+    "time_from":"12:55 pm",
+    "time_to":"14:25 pm",
+    "type":"global",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"36",
+    "title":"Say my name (JavaScript) - A deeply analysis on the modern JavaScript",
+    "time_from":"14:25 pm",
+    "time_to":"14:55 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Jaydson Gomes",
+        "image":"img/speakers/jaydson_gomes.jpg"
+      }
+    ],
+    "background_img":"img/speakers/jaydson_gomes.jpg",
+    "description":"A deeply analysis on the modern JavaScript (ES6 - ES2015/ES7 - ES2016)",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"37",
+    "title":"Hybrid Apps with Ionic Framework",
+    "time_from":"14:55 pm",
+    "time_to":"16:45 pm",
+    "type":"workshop",
+    "speakers":[
+      {
+        "name":"Agustin Haller",
+        "image":"img/speakers/agustin_haller.jpg"
+      },
+      {
+        "name":"Dayana Jabif",
+        "image":"img/speakers/dayana_jabif.jpg"
+      }
+    ],
+    "background_img":"img/ionic.png",
+    "description":"Ionic is rapidly gaining traction and is now the best option for creating hybrid mobile apps. Free and open source, Ionic offers a library of mobile-optimized HTML, CSS and JS components, gestures, and tools for building highly interactive apps. Built with Sass, Ionic utilizes AngularJS to provide the application structure, while Ionic itself focuses on the user interface. In other words, we see a match between the power of AngularJS and the beauty of Ionic UI.<br><br>In this workshop we are going to see an overview of the capabilities of Ionic while creating an app to show you how to develop using this framework.",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"38",
+    "title":"ES6 in production",
+    "time_from":"14:55 pm",
+    "time_to":"15:20 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Guillermo Paz",
+        "image":"img/speakers/guillermo_paz.jpg"
+      }
+    ],
+    "background_img":"img/speakers/guillermo_paz.jpg",
+    "description":"Are you using ES6 in production? Mango recently started adopting ES6 features that make our front-end code easier to write and maintain.<p>In this talk, I will explain why we decided to use ES6 and show what features we are using. I will also show how you can write ES6 modules to use in production.</p>",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"39",
+    "title":"Coffee Break",
+    "time_from":"15:20 pm",
+    "time_to":"15:35 pm",
+    "type":"global",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"40",
+    "title":"When &lt;&lt;Inheritance&gt;&gt; is not enough. &lt;&lt;Mixins&gt;&gt; and others ways to reuse code.",
+    "time_from":"15:35 pm",
+    "time_to":"16:05 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Maximiliano Fierro",
+        "image":"img/speakers/maximiliano_fierro.jpg"
+      }
+    ],
+    "background_img":"img/speakers/maximiliano_fierro.jpg",
+    "description":"Discover how Mixins can help you to reuse code. Learn about mechanisms to share behavior, keeping the code organized.<br>Exploration about Traits, Functional Mixins and Talents. Write less, share more.",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"41",
+    "title":"Enabling developers to build next-generation app the easy way",
+    "time_from":"16:05 pm",
+    "time_to":"16:30 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Adolfo Builes",
+        "image":"img/speakers/adolfo_builes.jpg"
+      }
+    ],
+    "background_img":"img/speakers/adolfo_builes.jpg",
+    "description":"ember-cli is the de facto command line interface for building web applications with Ember, but why having this when in theory we can accomplish the same with grunt/gulp/make or a bunch of custom script?<p>Before ember-cli we used to work with a custom &quot;blueprint&quot; project with Grunt called ember-app-kit, but it wasn&#39;t a good long term solution hence we build ember-cli, in this talk I&#39;d like to show what&#39;s ember-cli and why and how we build it to enable developers take advantage of next generations tool today.</p>",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"42",
+    "title":"Coffee Break",
+    "time_from":"16:30 pm",
+    "time_to":"16:45 pm",
+    "type":"global",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"43",
+    "title":"JavaScript Transducers",
+    "time_from":"16:45 pm",
+    "time_to":"17:15 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Matias Volpe",
+        "image":"img/speakers/matias_volpe.jpg"
+      }
+    ],
+    "background_img":"img/speakers/matias_volpe.jpg",
+    "description":"<p>Generic composable data transformations independent from the input and output, and from the iteration process.</p><ul><li>What are transducers and how to use them?</li><li>How to reuse data transformation logic without having to re­implement the transformation process for each data­type?</li><li>How to compose transducers for an expressive, faster and efficient data transformation process with a performance comparable to Lodash and Underscore (which work only with arrays)</li><li>How to manage the iteration process for each data­type in a generic way?</li></ul>",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"44",
+    "title":"WebGL and Three.js",
+    "time_from":"16:45 pm",
+    "time_to":"18:25 pm",
+    "type":"workshop",
+    "speakers":[
+      {
+        "name":"Martin Naumann",
+        "image":"img/speakers/martin_naumann.jpg"
+      }
+    ],
+    "background_img":"img/speakers/martin_naumann.jpg",
+    "description":"",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"45",
+    "title":"TypeScript and the JavaScript of tomorrow",
+    "time_from":"17:15 pm",
+    "time_to":"17:40 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Mathias Rodriguez",
+        "image":"img/speakers/mathias_rodriguez.png"
+      }
+    ],
+    "background_img":"img/speakers/mathias_rodriguez.png",
+    "description":"Another compiled language? Another new syntax or another new mass of rules to generate interpreted code? Adding a new level of abstraction (usually) hinders development and maintenance of applications, whereas the cost of the learning curve or the technical debt make it difficult to adopt new tools and practices. In this short talk TypeScript is presented, Microsoft’s solution for large scale application development, adding features that ease the future transition towards Harmony… and beyond!",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"46",
+    "title":"Coffee Break",
+    "time_from":"17:40 pm",
+    "time_to":"17:55 pm",
+    "type":"global",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"31",
+    "title":"Reactive Programming at Netflix",
+    "time_from":"17:55 pm",
+    "time_to":"18:25 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Matthew Podwysocki",
+        "image":"img/speakers/matthew_podwysocki.jpg"
+      }
+    ],
+    "background_img":"img/speakers/matthew_podwysocki.jpg",
+    "description":"What’s does a mouse drag event have in common with an Array of numbers? The answer to this question may surprise you: they are both collections.<p>This key insight holds the key to dramatically simplifying asynchronous programming in JavaScript. In this talk you will learn how you can use the familiar JavaScript Array methods to create surprisingly expressive asynchronous programs. </p> Using just a few functions, you will learn how to do the following:<ul><li> Declaratively build complex events out of simple events (ex. drag n’ drop)</li><li>Coordinate and sequence multiple Ajax requests</li><li>Reactively update UI’s in response to data changes</li><li>Eliminate memory leaks caused by neglecting to unsubscribe from events</li><li>Gracefully propagate and handle asynchronous exception.</li></ul><p>In this talk we’ll be exploring the Reactive Extensions (RxJS) library (<a href='http://github.com/reactive-extensions/RxJS'>http://github.com/reactive-extensions/RxJS</a>), which allows us to treat events as collections. You’ll learn about how Netflix uses Rx on the client and the server, allowing us to build end-to-end reactive systems. We’ll also contrast Rx with Promises, another popular approach to building asynchronous programs in JavaScript.</p>",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"48",
+    "title":"io.js: The Future of Node",
+    "time_from":"18:40 pm",
+    "time_to":"19:25 pm",
+    "type":"keynote",
+    "speakers":[
+      {
+        "name":"Julián Duque",
+        "image":"img/speakers/julian_duque.jpg"
+      }
+    ],
+    "background_img":"img/speakers/julian_duque.jpg",
+    "description":"In this talk we will know about io.js, a Node.js friendly fork under an open governance model which is bringing more contributores to Node and we will see why it's the future of Node.",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"49",
+    "title":"Close",
+    "time_from":"19:25 pm",
+    "type":"global",
+    "date":"day2"
+  },
+  {
+    "id":"50",
+    "title":"Drink Up!",
+    "time_from":"19:40 pm",
+    "type":"global",
+    "room":"Floor 26th",
+    "date":"day2"
+  }
+]

@@ -1,10 +1,25 @@
 <ion-view class="agenda-view">
-  <ion-nav-title>
+  <ion-nav-title class="has-tabs-top">
     <span>Agenda</span>
   </ion-nav-title>
-  <ion-content>
-    <h1>Agenda</h1>
-    <a ui-sref="app.event({eventId: 1})">This is an event</a>
-    <a ui-sref="app.event({eventId: 2})">This is other event</a>
-  </ion-content>
+
+  <ion-tabs class="tabs-striped tabs-top tabs-color-light">
+
+    <ion-tab class="tab-title" title="APR 24">
+      <ion-pane>
+        <ion-content class="padding">
+          <div agenda-event ng-repeat="event in events.day1" class="agenda-event"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+
+    <ion-tab class="tab-title" title="APR 25">
+      <ion-pane>
+        <ion-content class="padding">
+          <div agenda-event ng-repeat="event in events.day2" class="agenda-event"></div>
+        </ion-content>
+      </ion-pane>
+    </ion-tab>
+
+  </ion-tabs>
 </ion-view>
