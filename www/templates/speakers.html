@@ -14,8 +14,8 @@
         <p ng-bind-html="speaker.bio | rawHtml">
         <div>
           <div class="row">
-            <div class="col">
-              <a href="" class="button button-small button-outline button-block button-positive">@{{speaker.twitter}}</a>
+            <div ng-if="speaker.twitter" class="col">
+              <a href="" ng-click="goToUrl('http://twitter.com/{{speaker.twitter}}')" class="button button-small button-outline button-block button-positive">@{{speaker.twitter}}</a>
             </div>
             <div class="col">
               <a ui-sref="app.event({eventId: speaker.event_id})" class="button button-small button-outline button-block button-positive">My talk</a>

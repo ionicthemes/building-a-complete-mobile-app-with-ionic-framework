@@ -1,9 +1,19 @@
 <ion-view class="event-view">
+  <ion-nav-buttons side="right">
+    <a class="button button-icon icon ion-share" ng-click="shareEvent(event)"></a>
+  </ion-nav-buttons>
   <ion-nav-title>
     <span>{{event.type}}</span>
   </ion-nav-title>
   <ion-content>
-    <img ng-src="{{event.speakers[0].image}}"/>
+    <ion-slide-box ng-show="event.speakers.length > 1" auto-play="true" does-continue="true">
+      <ion-slide ng-repeat="speaker in event.speakers">
+        <div style="width:100vw; overflow:hidden;">
+          <img ng-src="{{speaker.image}}"/>
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+    <img ng-show="event.speakers.length == 1" ng-src="{{event.speakers[0].image}}"/>
     <div>
       <span ng-bind-html="event.title"></span>
       <span ng-show="event.speakers">By
