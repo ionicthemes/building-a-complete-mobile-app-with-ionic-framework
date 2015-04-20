@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place Autocomplete Address Form</title>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <!-- build:js scripts/ng-map.min.js -->
+    <script src="../app/scripts/app.js"></script>
+    <script src="../app/scripts/services/navigator_geolocation.js"></script>
+    <script src="../app/scripts/services/geo_coder.js"></script>
+    <script src="../app/scripts/services/attr2_options.js"></script>
+    <script src="../app/scripts/directives/places-auto-complete.js"></script>
+    <!-- endbuild -->
+    <script>
+      angular.module('myApp', ['ngMap'])
+       .controller('MyCtrl', function($scope) {
+         $scope.types = "['establishment']";
+         $scope.placeChanged = function() {
+           $scope.place = this.getPlace();
+         }
+       });
+    </script>
+  </head>
+
+  <body ng-app="myApp" ng-controller="MyCtrl">
+    Auto Complete Type: 
+    <select ng-model="types">
+      <option value="['geocode']">Geodode</option>
+      <option value="['establishment']">Establishment</option>
+      <option value="['address']">Address</option>
+    </select><br/>
+
+    Enter an address: <br/>
+    <input places-auto-complete size=80 
+      ng-model="address" 
+      component-restrictions="{country:'us'}"
+      types="{{types}}"
+      on-place-changed="placeChanged(place)" /> <br/>
+    <div ng-show="place">
+      Address = {{place.formatted_address}} <br/>
+      Location: {{place.geometry.location}}<br/>
+    </div>
+    address : {{address}}
+  </body>
+</html>
+

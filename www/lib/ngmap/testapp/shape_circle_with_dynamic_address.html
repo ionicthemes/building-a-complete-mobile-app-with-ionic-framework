@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="ngMap">
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+<script src="scripts/app.js"></script>
+<!-- build:js scripts/ng-map.min.js -->
+<script src="../app/scripts/app.js"></script>
+<script src="../app/scripts/directives/map_controller.js"></script>
+<script src="../app/scripts/directives/map.js"></script>
+<script src="../app/scripts/directives/marker.js"></script>
+<script src="../app/scripts/directives/shape.js"></script>
+<script src="../app/scripts/services/geo_coder.js"></script>
+<script src="../app/scripts/services/navigator_geolocation.js"></script>
+<script src="../app/scripts/services/attr2_options.js"></script>
+<!-- endbuild -->
+<script>
+function MyCtrl($scope) {
+  $scope.address = "Toronto Canada";
+};
+</script>
+</head>
+
+<body>
+    <div ng-controller="MyCtrl">
+       <map zoom="10" center="[0,0]">
+         <shape id="circle" name="circle" centered="true" 
+            center="{{address}}"
+            stroke-color='#FF0000' stroke-opacity="0.8" stroke-weight="2" 
+            radius="4000" editable="true" ></shape>
+         <shape id="circle" name="circle" centered="true" 
+            center="current-position"
+            stroke-color='#0000FF' stroke-opacity="0.8" stroke-weight="2" 
+            radius="4000" editable="true" ></shape>
+      </map>
+
+      <br/>Address : <input ng-model="address" />
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="ngMap">
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+<script src="scripts/app.js"></script>
+<!-- build:js scripts/ng-map.min.js -->
+<script src="../app/scripts/app.js"></script>
+<script src="../app/scripts/directives/map_controller.js"></script>
+<script src="../app/scripts/directives/map.js"></script>
+<script src="../app/scripts/directives/marker.js"></script>
+<script src="../app/scripts/directives/shape.js"></script>
+<script src="../app/scripts/services/geo_coder.js"></script>
+<script src="../app/scripts/services/navigator_geolocation.js"></script>
+<script src="../app/scripts/services/attr2_options.js"></script>
+<!-- endbuild -->
+</head>
+
+<body>
+  All controls are messed up intentionally.
+  <br/><br/>
+    <map zoom="11" center="[40.74, -74.18]"
+      zoom-control="true" 
+      zoom-control-options='{style:"small",position:"bottom_left"}'
+      map-type-control="true" 
+      map-type-control-options='{position:"top_right", style:"dropdown_menu", mapTypeIds:["HYBRID","ROADMAP","SATELLITE","TERRAIN"]}'
+      overview-map-control="true" 
+      overview-map-control-options="{opened:true}"
+      pan-control="true" 
+      pan-control-options='{position:"left_center"}'
+      rotate-control="true" 
+      rotate-control-options='{position:"right_center"}'
+      scale-control="true" 
+      scale-control-options='{position:"bottom_right", style:"default"}'
+      street-view-control="true"
+      street-view-control-options='{position:"right_center"}'
+    ></map>
+
+</body>
+</html>
+
