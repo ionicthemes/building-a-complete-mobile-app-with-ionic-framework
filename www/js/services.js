@@ -5,7 +5,7 @@ angular.module('jsconfuy.services', [])
   this.get = function() {
     var dfd = $q.defer();
 
-    $http.get('https://jsconfuy2015.herokuapp.com/speakers.json')
+    $http.get('speakers.json')
     .success(function(data) {
       dfd.resolve(data);
     })
@@ -22,7 +22,7 @@ angular.module('jsconfuy.services', [])
   this.get = function() {
     var dfd = $q.defer();
 
-    $http.get('https://jsconfuy2015.herokuapp.com/agenda.json')
+    $http.get('agenda.json')
     .success(function(data) {
 
       var day1 = _.filter(data, function(event){ return event.date =="day1" }),
@@ -43,7 +43,7 @@ angular.module('jsconfuy.services', [])
   this.getEvent = function(eventId){
     var dfd = $q.defer();
 
-    $http.get('https://jsconfuy2015.herokuapp.com/agenda.json')
+    $http.get('agenda.json')
     .success(function(data) {
       var event = _.find(data, {id: eventId});
       dfd.resolve(event);
