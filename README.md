@@ -24,7 +24,7 @@ This repo will serve as a guide and in this README.md you can find all the steps
 ### Install Ionic
 You can find the Ionic offical installation documentation [here](http://ionicframework.com/docs/guide/installation.html)
 
-1. Make sure you have an up-to-date version of ** *Node.js* ** installed on your system. If you don't have ** *Node.js* ** installed, you can install it from [here](http://nodejs.org/).
+1. Make sure you have an up-to-date version of ** _Node.js_ ** installed on your system. If you don't have ** *Node.js* ** installed, you can install it from [here](http://nodejs.org/).
 2. Open a terminal (Mac) or a command interpreter (`cmd`, Windows), and install ** *Cordova* ** and ** *Ionic* **:
     - `npm install -g cordova`
     - `npm install -g ionic`
