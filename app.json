@@ -1,0 +1,7 @@
+{
+  "name": "Ionic JSConfUY workshop",
+  "description": "A simple Ionic app for JSConfUY 2015",
+  "repository": "https://github.com/startapplabs/jsconfuy",
+  "logo": "https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/logo.png",
+  "keywords": ["ionic", "javascript", "jsconf", "jsconfuy"]
+}
