@@ -6,7 +6,8 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('jsconfuy', [
   'ionic',
-  'jsconfuy.controllers'
+  'jsconfuy.controllers',
+  'ngMap'
 ])
 
 .run(function($ionicPlatform) {
@@ -25,7 +26,7 @@ angular.module('jsconfuy', [
 
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
-  
+
   .state('app', {
     url: "/app",
     abstract: true,
