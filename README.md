@@ -237,12 +237,116 @@ If you want to see more details of what we have done, take a look at [this compa
 
 ## <a name="step-7">Step 7 - Cordova plugins + Ionic UX</a>
 
+This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/35) slide of the **_presentation_**, and this **_commit_** ([`14dd74a`](https://github.com/startapplabs/jsconfuy/commit/14dd74ae27b03eaedc518e53663472938d6f6861)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout 14dd74a`
 
+In this step we are going to integrate some mobile native funcionality using Cordova plugins and some Ionic UX components that will improve our app. We are going to:
+- Add Cordova [social sharing](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin) plugin to easily share talks with your friends
+- Add Cordova [inAppBrowser](https://github.com/apache/cordova-plugin-inappbrowser) plugin to open social profiles of speakers
+- Add Ionic loader
+- Add Ionic slidebox for speaker images
+
+These are part of the so called "ionic superpowers". Using Ionic to develop hybrid apps gives you the advantage of accessing the native API’s of devices, including the geolocation, social sharing, inAppBrowser, device camera, touchID, push notification, and so on. When developing an Ionic app, you can have several device API’s integrated using ngCordova or other Cordova plugins. That’s the difference between mobile web and hybrid apps.
+
+To install these plugins you just need to run:
+- `cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git`
+- `cordova plugin add org.apache.cordova.inappbrowser`
+
+The final point of this step is this **_commit_** ([`73cec82`](https://github.com/startapplabs/jsconfuy/commit/73cec828737e7f72d8f8d478a80de4aa9c206ed1)), run `git checkout 73cec82` and you will see the implementation of the instructions above.
+
+Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There you will see our JSConfUY app with the Ionic loader and slidebox integrated but as you are accesing the app through the browser you wont see neither the social sharing plugin nor the inAppBroswer plugin. You will need to install and test the app in your phone to see those in action.
+
+# TODO: NECESITO SCREENSHOTS DEL CELU DE DAYU
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.25.59.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.26.07.png" style="width:45%; border:1px solid #ccc;">
+
+If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/14dd74a...73cec82) between the initial commit ([`14dd74a`](https://github.com/startapplabs/jsconfuy/commit/14dd74ae27b03eaedc518e53663472938d6f6861)) and the final commit ([`73cec82`](https://github.com/startapplabs/jsconfuy/commit/73cec828737e7f72d8f8d478a80de4aa9c206ed1)) of this step.
+
+### What we have learned so far:
+- Give superpowers to your app using Cordova plugins
+- Give a more polished look to your app using Ionic UX components
 
 
 ## <a name="step-8">Step 8 - Sass</a>
 
+This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/36) slide of the **_presentation_**, and this **_commit_** ([`73cec82`](https://github.com/startapplabs/jsconfuy/commit/73cec828737e7f72d8f8d478a80de4aa9c206ed1)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout 73cec82`
 
+In this step we are going to take care of the app styles using **_CSS_** with the help of **_Sass_**. We are going to:
+- Use Sass **_mixins_**
+- Define and use Sass **_variables_** for fast customization
+
+**_Mixins_** will ease our styles development by helping us with prefixing verdor properties, defining functions, etc that will help us reuse our styles accross the app.
+
+This is the structure of the mixins we are going to use:
+``` css
+@mixin cssCalc($property, $expression) {
+  #{$property}: calc(#{$expression});
+}
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex-wrap($value) {
+  flex-wrap: $value;
+  -webkit-flex-wrap: $value;
+}
+```
+
+Other awesome feature are **_Sass variables_**. These will enable us to reuse variables accross our stylesheets. This is particulary useful for example when defining colors that will be spread accross the app.
+
+Here you can see the variables we defined for our app, and how easily we can change those and inmediately change the UI color scheme of the whole app.
+``` css
+$content-bg: #EAEAEA;
+$content-color: #444444;
+
+$top-bar-bg: #254164;
+$top-bar-color: #FFFFFF;
+
+$loading-color: #FFFFFF;
+
+$main-menu-bg: #FFC900;
+$main-menu-color: #FFFFFF;
+
+$loading-color: #FFFFFF;
+
+$speaker-actions-bg: #FFFFFF;
+
+$workshop-bg-color: #00B454;
+$talk-bg-color: #FF7C00;
+$keynote-bg-color: #FF3900;
+$global-bg-color: #DDDDDD;
+$event-color: #FFFFFF;
+
+$get-directions-btn-bg: #419e61;
+$get-directions-btn-color: #FFFFFF;
+```
+
+# TODO: TAKE SCREENSHOTS OF DIFFERENT COLORS COMBINATIONS
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.25.59.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.26.07.png" style="width:45%; border:1px solid #ccc;">
+
+The final point of this step is this **_commit_** ([`6eaea0f`](https://github.com/startapplabs/jsconfuy/commit/6eaea0f704084d18f7c643f1aed5819136fd7cc3)), run `git checkout 6eaea0f` and you will see the implementation of the instructions above.
+
+Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There you will see our JSConfUY finished with a professional and polished look.
+
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.50.50.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.50.47.png" style="width:45%; border:1px solid #ccc;">
+
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.50.36.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.51.12.png" style="width:45%; border:1px solid #ccc;">
+
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.51.19.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.51.25.png" style="width:45%; border:1px solid #ccc;">
+
+If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/73cec82...6eaea0f) between the initial commit ([`73cec82`](https://github.com/startapplabs/jsconfuy/commit/73cec828737e7f72d8f8d478a80de4aa9c206ed1)) and the final commit ([`6eaea0f`](https://github.com/startapplabs/jsconfuy/commit/6eaea0f704084d18f7c643f1aed5819136fd7cc3)) of this step.
+
+### What we have learned so far:
+- Give a **_professional_** and polished look to our app
+- Use some of the cool features of **_Sass_** (mixins, variables, etc)
 
 
 ## <a name="common-issues">Common Issues</a>
