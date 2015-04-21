@@ -26,13 +26,13 @@ You can find the **_Ionic_** offical installation documentation [here](http://io
 
 1. Make sure you have an up-to-date version of **_Node.js_** installed on your system. If you don't have **_Node.js_** installed, you can install it from [here](http://nodejs.org/).
 2. Open a terminal (Mac) or a command interpreter (`cmd`, Windows), and install **_Cordova_** and **_Ionic_**:
-    - `npm install -g cordova`
-    - `npm install -g ionic`
-    - On a Mac, you may have to use `sudo` depending on your system configuration: `sudo npm install -g cordova ionic`
+- `npm install -g cordova`
+- `npm install -g ionic`
+- On a Mac, you may have to use `sudo` depending on your system configuration: `sudo npm install -g cordova ionic`
 3. If you already have **_Cordova_** and **_Ionic_** installed on your computer, make sure you update to the latest version:
-    - `npm update -g cordova`
-    - `npm update -g ionic`
-    - Or `sudo npm update -g cordova ionic`
+- `npm update -g cordova`
+- `npm update -g ionic`
+- Or `sudo npm update -g cordova ionic`
 
 Follow this links if you want more information:
 * [Ionic **_Getting started_** guide](ionicframework.com/getting-started)
@@ -70,8 +70,8 @@ If you followed the procedure above, after serving the app you can see that the 
 - Bind the project to an existing **_Github repo_**
 - Start and perform basic configurations for your Ionic project using the powerfull **_Ionic CLI_**
 - Serve and see your app running on **_Ionic dev server_** which includes:
-    - **_Live reload:_** every time you change a file you will see the changes without refreshing
-    - **_Tasks and watchers:_** every time you change a file, **_Gulp_** tasks running on the background will perform certain procedures that will ease the development (for example **_sass compilation and minification_**)
+- **_Live reload:_** every time you change a file you will see the changes without refreshing
+- **_Tasks and watchers:_** every time you change a file, **_Gulp_** tasks running on the background will perform certain procedures that will ease the development (for example **_sass compilation and minification_**)
 
 
 ## <a name="step-2">Step 2 - Ionic templates & AngularJS navigation</a>
@@ -82,15 +82,15 @@ In this step we are going to remove all the example files that came with the **_
 
 This app will have information about Uruguay's Javascript Conference 2015 (JSConfUY 2015). To serve that pourpose the content will be the following:
 - 3 main views containing
-    - **_Speakers_** information
-    - **_Venue_** information
-    - **_Agenda_** information
+- **_Speakers_** information
+- **_Venue_** information
+- **_Agenda_** information
 - 1 **_side menu_** for a clear navigation
-- 1 sub view to show extended information of **_events_** such as keynotes, talks, workshops, cofee breaks, etc
+- 1 sub view to show extended information of **_events_** such as keynotes, talks, workshops, coffee breaks, etc
 
 This image ilustrates the navigation between views
 <div style="text-align:center;">
-    <img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/CommunicationDiagram1.png" style="border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/CommunicationDiagram1.png" style="border:1px solid #ccc;">
 </div>
 
 To achive this we are going to:
@@ -100,6 +100,7 @@ To achive this we are going to:
 - Add `www/templates/event.html` with basic event view layout
 - Update `www/templates/menu.html` with navigation layout to the other views
 - Update `www/js/app.js` with app's desired routing
+- Update `www/js/controllers.js` with a basic controller for each view
 
 The final point of this step is this **_commit_** ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)), run `git checkout 296941e` and you will see the implementation of the instructions above.
 
@@ -211,15 +212,15 @@ Now we have an app that gets data from a data source and displays it dinamicaly 
 Having that in mind, in my opinion you have three alternatives here:
 
 1. You can use all mighty **Wordpress** as your backend
-    - Wordpress is very flexible and you can use it in many ways, as a blog, a cms, or ecommerce (using woocommerce for example), etc. Also there are tons of plugins that will help you add different functionalities.
-    - You can easily access your Wordpress content through it’s JSON API.
-    - This is a fast and general solution, so depending on what your are planning to build you may need something more powerful and custom.
+- Wordpress is very flexible and you can use it in many ways, as a blog, a cms, or ecommerce (using woocommerce for example), etc. Also there are tons of plugins that will help you add different functionalities.
+- You can easily access your Wordpress content through it’s JSON API.
+- This is a fast and general solution, so depending on what your are planning to build you may need something more powerful and custom.
 2. Use **Parse** or **Firebase** (both “backends as a service”)
-    - [Firebase](https://www.firebase.com/) is a great service that will help you build your app’s backend with ease. (owned by Google)
-    - [Parse](https://www.parse.com/) is also another option which offers some of the same features as Firebase. (owned by Facebook)
-    - Again depending on what your are planning to build you may need something more powerful.
+- [Firebase](https://www.firebase.com/) is a great service that will help you build your app’s backend with ease. (owned by Google)
+- [Parse](https://www.parse.com/) is also another option which offers some of the same features as Firebase. (owned by Facebook)
+- Again depending on what your are planning to build you may need something more powerful.
 3. If you are one of those who like to have strict control over the backend implementation, I suggest you to try **Strongloop**.
-    - [Strongloop](https://strongloop.com/) is a perfect solution if you need full control and custom functionalities on your backend. Basically is a platform that enables you to easily (I would say VERY easily) build custom API’s for your backend needs. (This is the solution I use for my clients production apps).
+- [Strongloop](https://strongloop.com/) is a perfect solution if you need full control and custom functionalities on your backend. Basically is a platform that enables you to easily (I would say VERY easily) build custom API’s for your backend needs. (This is the solution I use for my clients production apps).
 
 The final point of this step is this **_commit_** ([`14dd74a`](https://github.com/startapplabs/jsconfuy/commit/14dd74ae27b03eaedc518e53663472938d6f6861)), run `git checkout 14dd74a` and you will see the implementation of the instructions above.
 
@@ -255,9 +256,8 @@ The final point of this step is this **_commit_** ([`73cec82`](https://github.co
 
 Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There you will see our JSConfUY app with the Ionic loader and slidebox integrated but as you are accesing the app through the browser you wont see neither the social sharing plugin nor the inAppBroswer plugin. You will need to install and test the app in your phone to see those in action.
 
-# TODO: NECESITO SCREENSHOTS DEL CELU DE DAYU
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.25.59.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.26.07.png" style="width:45%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/share.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/inAppBrowser.png" style="width:45%; border:1px solid #ccc;">
 
 If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/14dd74a...73cec82) between the initial commit ([`14dd74a`](https://github.com/startapplabs/jsconfuy/commit/14dd74ae27b03eaedc518e53663472938d6f6861)) and the final commit ([`73cec82`](https://github.com/startapplabs/jsconfuy/commit/73cec828737e7f72d8f8d478a80de4aa9c206ed1)) of this step.
 
@@ -274,7 +274,7 @@ In this step we are going to take care of the app styles using **_CSS_** with th
 - Use Sass **_mixins_**
 - Define and use Sass **_variables_** for fast customization
 
-**_Mixins_** will ease our styles development by helping us with prefixing verdor properties, defining functions, etc that will help us reuse our styles accross the app.
+**_Mixins_** will ease our styles development by helping us with prefixing vendor properties, defining functions, etc that will help us reuse our styles accross the app.
 
 This is the structure of the mixins we are going to use:
 ``` css
@@ -325,9 +325,9 @@ $get-directions-btn-bg: #419e61;
 $get-directions-btn-color: #FFFFFF;
 ```
 
-# TODO: TAKE SCREENSHOTS OF DIFFERENT COLORS COMBINATIONS
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.25.59.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.26.07.png" style="width:45%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/sass1.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/sass2.png" style="width:45%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/sass3.png" style="width:45%; border:1px solid #ccc;">
 
 The final point of this step is this **_commit_** ([`6eaea0f`](https://github.com/startapplabs/jsconfuy/commit/6eaea0f704084d18f7c643f1aed5819136fd7cc3)), run `git checkout 6eaea0f` and you will see the implementation of the instructions above.
 
