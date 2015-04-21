@@ -39,11 +39,10 @@ Follow this links if you want more information:
 * [Ionic **_Documentation_**](ionicframework.com/docs)
 * [Visit the Ionic **_Community Forum_**](forum.ionicframework.com)
 
-## <a name="step-0">Step 0</a>
+## <a name="step-1">Step 1 - Git & `ionic start`</a>
 
 This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/28) slide of the **_presentation_**.
 
-### Git & `ionic start`
 First we need to link this new Ionic project with our reference repo on github. Clone and checkout the **_initial commit_** ([`e37d84e`](https://github.com/startapplabs/jsconfuy/commit/e37d84e49b3c46c2c04e2da436e8370e90578e33)) of this repo so we can start working on the app:
 - `git clone https://github.com/startapplabs/jsconfuy.git`
 - `cd jsconfuy`
@@ -75,8 +74,7 @@ If you followed the procedure above, after serving the app you can see that the 
     - **_Tasks and watchers:_** every time you change a file, **_Gulp_** tasks running on the background will perform certain procedures that will ease the development (for example **_sass compilation and minification_**)
 
 
-
-## <a name="step-1">Step 1</a>
+## <a name="step-2">Step 2 - Ionic templates & AngularJS navigation</a>
 
 This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/30) slide of the **_presentation_**, and this **_commit_** ([`e8d787b`](https://github.com/startapplabs/jsconfuy/commit/e8d787b489c7f29e2b11a58169be4d16a70e1914)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout e8d787b`
 
@@ -119,7 +117,7 @@ If you want to see more details of what we have done, take a look at [this compa
 - Define custom routing for our app using **_AngularJS `ui-route`_**
 - Change the layout of our views using **_HTML_**
 
-## <a name="step-2">Step 2</a>
+## <a name="step-3">Step 3 - Speakers Layout</a>
 
 This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/31) slide of the **_presentation_**, and this **_commit_** ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout 296941e`
 
@@ -144,7 +142,7 @@ If you want to see more details of what we have done, take a look at [this compa
 - Compose different components to get the **_UI_** we want
 
 
-## <a name="step-3">Step 3</a>
+## <a name="step-4">Step 4 - Venue Layout</a>
 
 This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/32) slide of the **_presentation_**, and this **_commit_** ([`fb02948`](https://github.com/startapplabs/jsconfuy/commit/fb029480b5d67126ceabf632a608cbd3f2b33dcc)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout fb02948`
 
@@ -170,7 +168,7 @@ If you want to see more details of what we have done, take a look at [this compa
 - Reuse **_AngularJS directives_** in our app
 
 
-## <a name="step-4">Step 4</a>
+## <a name="step-5">Step 5 - Agenda Layout</a>
 
 This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/33) slide of the **_presentation_**, and this **_commit_** ([`7bfcf29`](https://github.com/startapplabs/jsconfuy/commit/7bfcf293a82be70489849e58306e80afb5aca697)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout -f 7bfcf29`
 
@@ -193,8 +191,56 @@ If you want to see more details of what we have done, take a look at [this compa
 - Use **_advanced components_** such as tabs for our mobile app layout
 
 
+## <a name="step-6">Step 6 - AngularJS data access</a>
 
-## <a name="step-5">Step 5</a>
+This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/34) slide of the **_presentation_**, and this **_commit_** ([`9d797d7`](https://github.com/startapplabs/jsconfuy/commit/9d797d7ebad844e8cb376e710c9ac05db3cecf32)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout 9d797d7`
+
+In this step we are going to remove all hard coded data and replace it with data we get from our data source (in this case a simple JSON). We are going to:
+- Define the structure and set all the data of the **_agenda.json_** data source
+- Define the structure and set all the data of the **_speakers.json_** data source
+- Grab **_images_** and resources from jsconf.uy website so we have rich content for our app
+- Add `www/js/services.js` to get data from JSON data sources using AngularJS $http service
+- Add `www/js/filters.js` to display raw html
+- Add `www/js/directives.js` to use directive templates for agenda events
+- Update `www/js/controllers.js` to use the AngularJS services we defined in `www/js/services.js`
+
+In this step we are using all the power of AngularJS **_controllers_**, **_directives_**, **_services_** and **_filters_** to give real value to our app.
+
+Now we have an app that gets data from a data source and displays it dinamicaly to the users. In this case we are using two JSON files as data sources, but you could easily use any other backend. The way many apps comunicate with backends is through an **_API_**.
+
+Having that in mind, in my opinion you have three alternatives here:
+
+1. You can use all mighty **Wordpress** as your backend
+    - Wordpress is very flexible and you can use it in many ways, as a blog, a cms, or ecommerce (using woocommerce for example), etc. Also there are tons of plugins that will help you add different functionalities.
+    - You can easily access your Wordpress content through it’s JSON API.
+    - This is a fast and general solution, so depending on what your are planning to build you may need something more powerful and custom.
+2. Use **Parse** or **Firebase** (both “backends as a service”)
+    - [Firebase](https://www.firebase.com/) is a great service that will help you build your app’s backend with ease. (owned by Google)
+    - [Parse](https://www.parse.com/) is also another option which offers some of the same features as Firebase. (owned by Facebook)
+    - Again depending on what your are planning to build you may need something more powerful.
+3. If you are one of those who like to have strict control over the backend implementation, I suggest you to try **Strongloop**.
+    - [Strongloop](https://strongloop.com/) is a perfect solution if you need full control and custom functionalities on your backend. Basically is a platform that enables you to easily (I would say VERY easily) build custom API’s for your backend needs. (This is the solution I use for my clients production apps).
+
+The final point of this step is this **_commit_** ([`14dd74a`](https://github.com/startapplabs/jsconfuy/commit/14dd74ae27b03eaedc518e53663472938d6f6861)), run `git checkout 14dd74a` and you will see the implementation of the instructions above.
+
+Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There you will see our JSConfUY app with real data for the event.
+
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.25.59.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.26.07.png" style="width:45%; border:1px solid #ccc;">
+
+If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/9d797d7...14dd74a) between the initial commit ([`9d797d7`](https://github.com/startapplabs/jsconfuy/commit/9d797d7ebad844e8cb376e710c9ac05db3cecf32)) and the final commit ([`14dd74a`](https://github.com/startapplabs/jsconfuy/commit/14dd74ae27b03eaedc518e53663472938d6f6861)) of this step.
+
+### What we have learned so far:
+- Reuse what we already know from AngularJS (controllers, services, directives, filters) in our Ionic app
+- Get data from different data sources
+
+
+## <a name="step-7">Step 7 - Cordova plugins + Ionic UX</a>
+
+
+
+
+## <a name="step-8">Step 8 - Sass</a>
 
 
 
