@@ -67,7 +67,7 @@ If you followed the procedure above, after serving the app you can see that the 
 <img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2020.56.55.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
 <img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2020.56.50.png" style="width:45%; border:1px solid #ccc;">
 
-### What we have lerned so far:
+### What we have learned so far:
 - Bind the project to an existing **_Github repo_**
 - Start and perform basic configurations for your Ionic project using the powerfull **_Ionic CLI_**
 - Serve and see your app running on **_Ionic dev server_** which includes:
@@ -114,6 +114,20 @@ Serve the app with `ionic serve` and look at the **_Ionic dev server_** running 
 <img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.56.png" style="width:45%; border:1px solid #ccc;">
 
 If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/e8d787b...296941e) between the initial commit ([`e8d787b`](https://github.com/startapplabs/jsconfuy/commit/e8d787b489c7f29e2b11a58169be4d16a70e1914)) and the final commit ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)) of this step.
+
+### What we have learned so far:
+- Define custom routing for our app using **_AngularJS `ui-route`_**
+- Change the layout of our views using **_HTML_**
+
+## <a name="step-2">Step 2</a>
+
+This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/31) slide of the **_presentation_**, and this **_commit_** ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout 296941e`
+
+In this step we are going to work on the layout of the **_speakers view_**.
+
+
+
+
 
 
 
