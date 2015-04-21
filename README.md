@@ -207,6 +207,9 @@ In this step we are going to remove all hard coded data and replace it with data
 
 In this step we are using all the power of AngularJS **_controllers_**, **_directives_**, **_services_** and **_filters_** to give real value to our app.
 
+We are going to use [underscore.js](http://underscorejs.org/) to ease our work, we just need to add the dependency using **_bower:_**
+- `bower install underscore --save`
+
 Now we have an app that gets data from a data source and displays it dinamicaly to the users. In this case we are using two JSON files as data sources, but you could easily use any other backend. The way many apps comunicate with backends is through an **_API_**.
 
 Having that in mind, in my opinion you have three alternatives here:
