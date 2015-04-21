@@ -123,11 +123,27 @@ If you want to see more details of what we have done, take a look at [this compa
 
 This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/31) slide of the **_presentation_**, and this **_commit_** ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout 296941e`
 
-In this step we are going to work on the layout of the **_speakers view_**.
+In this step we are going to work on the layout of the **_speakers view_**. For this view we need to:
+- Show a **_list_** with all the speakers of the conference
+- Show **_information_** about the speaker
+- Provide a quick link to the speaker's **_talk_**
+- Provide a link to the speaker's **_social profiles_**
 
+Luckily Ionic provide awesome **_components_** that will help us layout the content. Ionic [avatar list](http://ionicframework.com/docs/components/#item-avatars) or [thumbnails list](http://ionicframework.com/docs/components/#item-thumbnails) may be good options, but i think Ionic [cards](http://ionicframework.com/docs/components/#card-showcase) are the best choice for this view because we can fit all the information we have within one clean component.
 
+The final point of this step is this **_commit_** ([`fb02948`](https://github.com/startapplabs/jsconfuy/commit/fb029480b5d67126ceabf632a608cbd3f2b33dcc)), run `git checkout fb02948` and you will see the implementation of the instructions above.
 
+Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There you will see our JSConfUY app with the **_speakers view_** DONE.
 
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2023.49.50.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+
+If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/296941e...fb02948) between the initial commit ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)) and the final commit ([`fb02948`](https://github.com/startapplabs/jsconfuy/commit/fb029480b5d67126ceabf632a608cbd3f2b33dcc))of this step.
+
+### What we have learned so far:
+- Explore **_Ionic components_**
+- Compose different components to get the **_UI_** we want
+
+## <a name="step-3">Step 3</a>
 
 
 
