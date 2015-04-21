@@ -44,7 +44,7 @@ Follow this links if you want more information:
 This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/28) slide of the **_presentation_**.
 
 ### Git & `ionic start`
-First we need to link this new Ionic project with our reference repo on github. Clone and checkout the initial commit of this repo so we can start working on the app:
+First we need to link this new Ionic project with our reference repo on github. Clone and checkout the **_initial commit_** ([`e37d84e`](https://github.com/startapplabs/jsconfuy/commit/e37d84e49b3c46c2c04e2da436e8370e90578e33)) of this repo so we can start working on the app:
 - `git clone https://github.com/startapplabs/jsconfuy.git`
 - `cd jsconfuy`
 - `git checkout e37d84e`
@@ -62,7 +62,7 @@ After this, we need to set up some stuff before starting working on the **_Ionic
 Finally to see the current state of the project run:
 - `ionic serve`
 
-If you followed the procedure above, after serving the app you can see that the **_Ionic dev server_** is running on `http://localhost:8100` and there you should see one of Ionics starter projects which showcases an app with a side menu.
+If you followed the procedure above, after serving the app you can see that the **_Ionic dev server_** is running on `http://localhost:8100` and there you will see one of Ionics starter projects which showcases an app with a side menu.
 
 <img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2020.56.55.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
 <img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2020.56.50.png" style="width:45%; border:1px solid #ccc;">
@@ -90,9 +90,30 @@ This app will have information about Uruguay's Javascript Conference 2015 (JSCon
 - 1 **_side menu_** for a clear navigation
 - 1 sub view to show extended information of **_events_** such as keynotes, talks, workshops, cofee breaks, etc
 
-This table ilustrates the navigation between views
+This image ilustrates the navigation between views
+<div style="text-align:center;">
+    <img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/CommunicationDiagram1.png" style="border:1px solid #ccc;">
+</div>
 
+To achive this we are going to:
+- Add `www/templates/agenda.html` with basic agenda view layout
+- Add `www/templates/speakers.html` with basic speakers view layout
+- Add `www/templates/venue.html` with basic venue view layout
+- Add `www/templates/event.html` with basic event view layout
+- Update `www/templates/menu.html` with navigation layout to the other views
+- Update `www/js/app.js` with app's desired routing
 
+The final point of this step is this **_commit_** ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)), run `git checkout 296941e` and you will see the implementation of the instructions above.
+
+Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There you will see our JSConfUY app with the navigation DONE.
+
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.52.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.49.png" style="width:45%; border:1px solid #ccc;">
+
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.41.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.56.png" style="width:45%; border:1px solid #ccc;">
+
+If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/e8d787b...296941e) between the initial commit ([`e8d787b`](https://github.com/startapplabs/jsconfuy/commit/e8d787b489c7f29e2b11a58169be4d16a70e1914)) and the final commit ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)) of this step.
 
 
 
