@@ -8,7 +8,7 @@ This repo will serve as a guide and in this `README.md` you can find all the ste
 * You can also **_deploy_** your own copy of the app using this button: [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/startapplabs/jsconfuy/tree/master)
 * You can download the app from **_Apple App Store_** [here]()
 * You can download the app from **_Google Play_** [here]()
-* *[If the app isn't yet approved]* This is the ID (`350a3330`) of the JSConfUY app on [**_Ionic View_**](). If you want to test the app in your device you can follow [these steps]() and get the app through Ionic View
+* *[If the app isn't yet approved]* This is the ID (`350a3330`) of the JSConfUY app on [**_Ionic View_**](http://view.ionic.io/). If you want to test the app in your device you can follow [these steps](http://blog.ionic.io/view-app-is-alive/) and get the app through Ionic View
 * *[If the app isn't yet approved]* And you are an Android user, you can download the `.apk` [here]()
 
 **Notice:**
@@ -35,9 +35,9 @@ You can find the **_Ionic_** offical installation documentation [here](http://io
 - Or `sudo npm update -g cordova ionic`
 
 Follow this links if you want more information:
-* [Ionic **_Getting started_** guide](ionicframework.com/getting-started)
-* [Ionic **_Documentation_**](ionicframework.com/docs)
-* [Visit the Ionic **_Community Forum_**](forum.ionicframework.com)
+* [Ionic **_Getting started_** guide](http://ionicframework.com/getting-started)
+* [Ionic **_Documentation_**](http://ionicframework.com/docs)
+* [Visit the Ionic **_Community Forum_**](http://forum.ionicframework.com)
 
 ## <a name="step-1">Step 1 - Git & `ionic start`</a>
 
@@ -215,15 +215,15 @@ Now we have an app that gets data from a data source and displays it dinamicaly 
 Having that in mind, in my opinion you have three alternatives here:
 
 1. You can use all mighty **Wordpress** as your backend
-- Wordpress is very flexible and you can use it in many ways, as a blog, a cms, or ecommerce (using woocommerce for example), etc. Also there are tons of plugins that will help you add different functionalities.
-- You can easily access your Wordpress content through it’s JSON API.
-- This is a fast and general solution, so depending on what your are planning to build you may need something more powerful and custom.
+	- Wordpress is very flexible and you can use it in many ways, as a blog, a cms, or ecommerce (using woocommerce for example), etc. Also there are tons of plugins that will help you add different functionalities.
+	- You can easily access your Wordpress content through it’s JSON API.
+	- This is a fast and general solution, so depending on what your are planning to build you may need something more powerful and custom.
 2. Use **Parse** or **Firebase** (both “backends as a service”)
-- [Firebase](https://www.firebase.com/) is a great service that will help you build your app’s backend with ease. (owned by Google)
-- [Parse](https://www.parse.com/) is also another option which offers some of the same features as Firebase. (owned by Facebook)
-- Again depending on what your are planning to build you may need something more powerful.
+	- [Firebase](https://www.firebase.com/) is a great service that will help you build your app’s backend with ease. (owned by Google)
+	- [Parse](https://www.parse.com/) is also another option which offers some of the same features as Firebase. (owned by Facebook)
+	- Again depending on what your are planning to build you may need something more powerful.
 3. If you are one of those who like to have strict control over the backend implementation, I suggest you to try **Strongloop**.
-- [Strongloop](https://strongloop.com/) is a perfect solution if you need full control and custom functionalities on your backend. Basically is a platform that enables you to easily (I would say VERY easily) build custom API’s for your backend needs. (This is the solution I use for my clients production apps).
+	- [Strongloop](https://strongloop.com/) is a perfect solution if you need full control and custom functionalities on your backend. Basically is a platform that enables you to easily (I would say VERY easily) build custom API’s for your backend needs. (This is the solution I use for my clients production apps).
 
 The final point of this step is this **_commit_** ([`14dd74a`](https://github.com/startapplabs/jsconfuy/commit/14dd74ae27b03eaedc518e53663472938d6f6861)), run `git checkout 14dd74a` and you will see the implementation of the instructions above.
 
@@ -246,8 +246,8 @@ This step corresponds with [this](http://startapplabs.github.io/starting-with-io
 In this step we are going to integrate some mobile native funcionality using Cordova plugins and some Ionic UX components that will improve our app. We are going to:
 - Add Cordova [social sharing](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin) plugin to easily share talks with your friends
 - Add Cordova [inAppBrowser](https://github.com/apache/cordova-plugin-inappbrowser) plugin to open social profiles of speakers
-- Add Ionic loader
-- Add Ionic slidebox for speaker images
+- Add [Ionic loader](http://ionicframework.com/docs/api/service/$ionicLoading/)
+- Add [Ionic slide box](http://ionicframework.com/docs/api/directive/ionSlideBox/) for speaker images
 
 These are part of the so called "ionic superpowers". Using Ionic to develop hybrid apps gives you the advantage of accessing the native API’s of devices, including the geolocation, social sharing, inAppBrowser, device camera, touchID, push notification, and so on. When developing an Ionic app, you can have several device API’s integrated using ngCordova or other Cordova plugins. That’s the difference between mobile web and hybrid apps.
 
