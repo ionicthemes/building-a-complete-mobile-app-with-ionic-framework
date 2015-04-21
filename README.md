@@ -12,8 +12,8 @@ This repo will serve as a guide and in this `README.md` you can find all the ste
 * *[If the app isn't yet approved]* And you are an Android user, you can download the `.apk` [here]()
 
 **Notice:**
-* This is not a mobile web, after compiled you will get a native app that uses web technologies (JS, CSS, HTML). The hosted example is just for you to see how the app is going to be, but remember that what you are going to see in the hosted version is a pre build example of the app, all the interactions with native mobile APIs (inAppBrowser, Social Share, etc) won't be available.
-* **_Ionic View_** is ment to provide an easy way to share and try mobile apps built with Ionic. That said, there are some cordova plugins that are not yet integrated in Ionic View. That may cause that some functionalities won't work if you are trying the app on Ionic View.
+* This is not a mobile web, after compiled you will get a native app that uses web technologies (JS, CSS, HTML). The hosted example is just for you to see how the app is going to be, but remember that what you are going to see in the hosted version is a pre build example of the app, all the interactions with native mobile APIs (inAppBrowser, Social Share, etc.) won't be available.
+* **_Ionic View_** is meant to provide an easy way to share and try mobile apps built with Ionic. That said, there are some Cordova plugins that are not yet integrated in Ionic View. That may cause that some functionalities won't work if you are trying the app on Ionic View.
 * For a better experience we recommend you to download the app from the **_App Store_** or **_Google Play_** or to download the `.apk` if you are an Android user.
 * For more information about using **_Heroku_**, check out https://devcenter.heroku.com/
 
@@ -22,7 +22,7 @@ This repo will serve as a guide and in this `README.md` you can find all the ste
 **Are you using Windows?** It is probable that you will get some errors when running `npm install` because your computer needs some other things in order to use `npm`. Stay calm, you are not alone! If that's the case please look at [these links](#errors-when-running-npm-install-on-windows "Errors when running npm install on Windows") to fix your issues and then continue with the rest of the installation process below.
 
 ### Install Ionic
-You can find the **_Ionic_** offical installation documentation [here](http://ionicframework.com/docs/guide/installation.html)
+You can find the **_Ionic_** official installation documentation [here](http://ionicframework.com/docs/guide/installation.html)
 
 1. Make sure you have an up-to-date version of **_Node.js_** installed on your system. If you don't have **_Node.js_** installed, you can install it from [here](http://nodejs.org/).
 2. Open a terminal (Mac) or a command interpreter (`cmd`, Windows), and install **_Cordova_** and **_Ionic_**:
@@ -68,7 +68,7 @@ If you followed the procedure above, after serving the app you can see that the 
 
 ### What we have learned so far:
 - Bind the project to an existing **_Github repo_**
-- Start and perform basic configurations for your Ionic project using the powerfull **_Ionic CLI_**
+- Start and perform basic configurations for your Ionic project using the powerful **_Ionic CLI_**
 - Serve and see your app running on **_Ionic dev server_** which includes:
 - **_Live reload:_** every time you change a file you will see the changes without refreshing
 - **_Tasks and watchers:_** every time you change a file, **_Gulp_** tasks running on the background will perform certain procedures that will ease the development (for example **_sass compilation and minification_**)
@@ -80,20 +80,20 @@ This step corresponds with [this](http://startapplabs.github.io/starting-with-io
 
 In this step we are going to remove all the example files that came with the **_Ionic starter project_** and add our own starter files.
 
-This app will have information about Uruguay's Javascript Conference 2015 (JSConfUY 2015). To serve that pourpose the content will be the following:
+This app will have information about Uruguay's Javascript Conference 2015 (JSConfUY 2015). To serve that purpose the content will be the following:
 - 3 main views containing
 - **_Speakers_** information
 - **_Venue_** information
 - **_Agenda_** information
 - 1 **_side menu_** for a clear navigation
-- 1 sub view to show extended information of **_events_** such as keynotes, talks, workshops, coffee breaks, etc
+- 1 sub view to show extended information of **_events_** such as keynotes, talks, workshops, coffee breaks, etc.
 
-This image ilustrates the navigation between views
+This image illustrates the navigation between views
 <div style="text-align:center;">
 <img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/CommunicationDiagram1.png" style="border:1px solid #ccc;">
 </div>
 
-To achive this we are going to:
+To achieve this we are going to:
 - Add `www/templates/agenda.html` with basic agenda view layout
 - Add `www/templates/speakers.html` with basic speakers view layout
 - Add `www/templates/venue.html` with basic venue view layout
@@ -151,7 +151,7 @@ In this step we are going to work on the layout of the **_venue view_**. For thi
 - Show a **_map_** pointing the location of the venue
 - Show **_information_** about the location of the venue
 
-As we mentiones before one of the reasons because Ionic is awesome is because it's built using the web stack. In this case that means that we don't have to reinvent the wheel for the map we need for this view. We can easily reuse any angular map directive and it will work like a charm.
+As we mentioned before one of the reasons because Ionic is awesome is because it's built using the web stack. In this case that means that we don't have to reinvent the wheel for the map we need for this view. We can easily reuse any angular map directive and it will work like a charm.
 
 [Angularjs-Google-Maps](https://ngmap.github.io/) will do the trick. We just need to add the dependency using **_bower:_**
 - `bower install ngmap --save`
@@ -177,7 +177,7 @@ In this step we are going to work on the layout of the **_agenda view_**. For th
 - Show the **_schedule for both days_** of the conference
 - Show **_information_** about each event
 
-Again, Ionic has awesome components, in this case [**_tabs_**](http://ionicframework.com/docs/components/#striped-style-tabs) will work perfectly for displaying both days schedule in a clean and organized manner.
+Again, Ionic has awesome components; in this case [**_tabs_**](http://ionicframework.com/docs/components/#striped-style-tabs) will work perfectly for displaying both days schedule in a clean and organized manner.
 
 The final point of this step is this **_commit_** ([`9d797d7`](https://github.com/startapplabs/jsconfuy/commit/9d797d7ebad844e8cb376e710c9ac05db3cecf32)), run `git checkout 9d797d7` and you will see the implementation of the instructions above.
 
@@ -207,10 +207,10 @@ In this step we are going to remove all hard coded data and replace it with data
 
 In this step we are using all the power of AngularJS **_controllers_**, **_directives_**, **_services_** and **_filters_** to give real value to our app.
 
-We are going to use [underscore.js](http://underscorejs.org/) to ease our work, we just need to add the dependency using **_bower:_**
+We are going to use [underscore.js](http://underscorejs.org/) to ease our work; we just need to add the dependency using **_bower:_**
 - `bower install underscore --save`
 
-Now we have an app that gets data from a data source and displays it dinamicaly to the users. In this case we are using two JSON files as data sources, but you could easily use any other backend. The way many apps comunicate with backends is through an **_API_**.
+Now we have an app that gets data from a data source and displays it dynamically to the users. In this case we are using two JSON files as data sources, but you could easily use any other backend. The way many apps communicate with backend is through an **_API_**.
 
 Having that in mind, in my opinion you have three alternatives here:
 
@@ -218,10 +218,10 @@ Having that in mind, in my opinion you have three alternatives here:
 	- Wordpress is very flexible and you can use it in many ways, as a blog, a cms, or ecommerce (using woocommerce for example), etc. Also there are tons of plugins that will help you add different functionalities.
 	- You can easily access your Wordpress content through it’s JSON API.
 	- This is a fast and general solution, so depending on what your are planning to build you may need something more powerful and custom.
-2. Use **Parse** or **Firebase** (both “backends as a service”)
-	- [Firebase](https://www.firebase.com/) is a great service that will help you build your app’s backend with ease. (owned by Google)
-	- [Parse](https://www.parse.com/) is also another option which offers some of the same features as Firebase. (owned by Facebook)
-	- Again depending on what your are planning to build you may need something more powerful.
+2. Use **Parse** or **Firebase** (both “backend as a service”)
+	- [Firebase](https://www.firebase.com/) is a great service that will help you build your app’s backend with ease. (Owned by Google)
+	- [Parse](https://www.parse.com/) is also another option that offers some of the same features as Firebase. (Owned by Facebook)
+	- Again depending on what you are planning to build you may need something more powerful.
 3. If you are one of those who like to have strict control over the backend implementation, I suggest you to try **Strongloop**.
 	- [Strongloop](https://strongloop.com/) is a perfect solution if you need full control and custom functionalities on your backend. Basically is a platform that enables you to easily (I would say VERY easily) build custom API’s for your backend needs. (This is the solution I use for my clients production apps).
 
@@ -243,13 +243,13 @@ If you want to see more details of what we have done, take a look at [this compa
 
 This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/35) slide of the **_presentation_**, and this **_commit_** ([`14dd74a`](https://github.com/startapplabs/jsconfuy/commit/14dd74ae27b03eaedc518e53663472938d6f6861)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout 14dd74a`
 
-In this step we are going to integrate some mobile native funcionality using Cordova plugins and some Ionic UX components that will improve our app. We are going to:
+In this step we are going to integrate some mobile native functionality using Cordova plugins and some Ionic UX components that will improve our app. We are going to:
 - Add Cordova [social sharing](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin) plugin to easily share talks with your friends
 - Add Cordova [inAppBrowser](https://github.com/apache/cordova-plugin-inappbrowser) plugin to open social profiles of speakers
 - Add [Ionic loader](http://ionicframework.com/docs/api/service/$ionicLoading/)
 - Add [Ionic slide box](http://ionicframework.com/docs/api/directive/ionSlideBox/) for speaker images
 
-These are part of the so called "ionic superpowers". Using Ionic to develop hybrid apps gives you the advantage of accessing the native API’s of devices, including the geolocation, social sharing, inAppBrowser, device camera, touchID, push notification, and so on. When developing an Ionic app, you can have several device API’s integrated using ngCordova or other Cordova plugins. That’s the difference between mobile web and hybrid apps.
+These are part of the so-called "ionic superpowers". Using Ionic to develop hybrid apps gives you the advantage of accessing the native API’s of devices, including the geolocation, social sharing, inAppBrowser, device camera, touchID, push notification, and so on. When developing an Ionic app, you can have several device API’s integrated using ngCordova or other Cordova plugins. That’s the difference between mobile web and hybrid apps.
 
 To install these plugins you just need to run:
 - `cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git`
@@ -257,7 +257,7 @@ To install these plugins you just need to run:
 
 The final point of this step is this **_commit_** ([`73cec82`](https://github.com/startapplabs/jsconfuy/commit/73cec828737e7f72d8f8d478a80de4aa9c206ed1)), run `git checkout 73cec82` and you will see the implementation of the instructions above.
 
-Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There you will see our JSConfUY app with the Ionic loader and slidebox integrated but as you are accesing the app through the browser you wont see neither the social sharing plugin nor the inAppBroswer plugin. You will need to install and test the app in your phone to see those in action.
+Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There you will see our JSConfUY app with the Ionic loader and slide box integrated but as you are accessing the app through the browser you wont see neither the social sharing plugin nor the inAppBroswer plugin. You will need to install and test the app in your phone to see those in action.
 
 <img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/share.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
 <img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/inAppBrowser.png" style="width:45%; border:1px solid #ccc;">
@@ -277,7 +277,7 @@ In this step we are going to take care of the app styles using **_CSS_** with th
 - Use Sass **_mixins_**
 - Define and use Sass **_variables_** for fast customization
 
-**_Mixins_** will ease our styles development by helping us with prefixing vendor properties, defining functions, etc that will help us reuse our styles accross the app.
+**_Mixins_** will ease our styles development by helping us with prefixing vendor properties, defining functions, etc. that will help us reuse our styles across the app.
 
 This is the structure of the mixins we are going to use:
 ``` css
@@ -299,9 +299,9 @@ This is the structure of the mixins we are going to use:
 }
 ```
 
-Other awesome feature are **_Sass variables_**. These will enable us to reuse variables accross our stylesheets. This is particulary useful for example when defining colors that will be spread accross the app.
+Other awesome features are **_Sass variables_**. These will enable us to reuse variables across our style sheets. This is particularly useful for example when defining colors that will be spread across the app.
 
-Here you can see the variables we defined for our app, and how easily we can change those and inmediately change the UI color scheme of the whole app.
+Here you can see the variables we defined for our app, and how easily we can change those and immediately change the UI color scheme of the whole app.
 ``` css
 $content-bg: #EAEAEA;
 $content-color: #444444;
@@ -349,7 +349,7 @@ If you want to see more details of what we have done, take a look at [this compa
 
 ### What we have learned so far:
 - Give a **_professional_** and polished look to our app
-- Use some of the cool features of **_Sass_** (mixins, variables, etc)
+- Use some of the cool features of **_Sass_** (mixins, variables, etc.)
 
 
 ## <a name="common-issues">Common Issues</a>
