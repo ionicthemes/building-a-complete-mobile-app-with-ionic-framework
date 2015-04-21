@@ -3,7 +3,7 @@
 In this workshop we are going to go through the process of building a hybrid mobile app using **_Ionic Framework_**.
 This repo will serve as a guide and in this `README.md` you can find all the steps and instructions needed to build the app.
 
-* [Here](http://startapplabs.github.io/starting-with-ionic/#/) you can find the **_slides_** of the presentation at the JSConfUY 2015
+* [Here](http://startapplabs.github.io/starting-with-ionic/#/){:target="_blank"} you can find the **_slides_** of the presentation at the JSConfUY 2015
 * [Here](https://jsconfuy2015.herokuapp.com/) you can find a hosted version of the app we are going to build
 * You can also **_deploy_** your own copy of the app using this button: [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/startapplabs/jsconfuy/tree/master)
 * You can download the app from **_Apple App Store_** [here]()
