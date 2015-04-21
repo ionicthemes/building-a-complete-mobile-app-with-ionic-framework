@@ -137,13 +137,64 @@ Serve the app with `ionic serve` and look at the **_Ionic dev server_** running 
 
 <img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2023.49.50.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
 
-If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/296941e...fb02948) between the initial commit ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)) and the final commit ([`fb02948`](https://github.com/startapplabs/jsconfuy/commit/fb029480b5d67126ceabf632a608cbd3f2b33dcc))of this step.
+If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/296941e...fb02948) between the initial commit ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)) and the final commit ([`fb02948`](https://github.com/startapplabs/jsconfuy/commit/fb029480b5d67126ceabf632a608cbd3f2b33dcc)) of this step.
 
 ### What we have learned so far:
 - Explore **_Ionic components_**
 - Compose different components to get the **_UI_** we want
 
+
 ## <a name="step-3">Step 3</a>
+
+This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/32) slide of the **_presentation_**, and this **_commit_** ([`fb02948`](https://github.com/startapplabs/jsconfuy/commit/fb029480b5d67126ceabf632a608cbd3f2b33dcc)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout fb02948`
+
+In this step we are going to work on the layout of the **_venue view_**. For this view we need to:
+- Show a **_map_** pointing the location of the venue
+- Show **_information_** about the location of the venue
+
+As we mentiones before one of the reasons because Ionic is awesome is because it's built using the web stack. In this case that means that we don't have to reinvent the wheel for the map we need for this view. We can easily reuse any angular map directive and it will work like a charm.
+
+[Angularjs-Google-Maps](https://ngmap.github.io/) will do the trick. We just need to add the dependency using **_bower:_**
+- `bower install ngmap --save`
+
+The final point of this step is this **_commit_** ([`7bfcf29`](https://github.com/startapplabs/jsconfuy/commit/7bfcf293a82be70489849e58306e80afb5aca697)), run `git checkout -f 7bfcf29` and you will see the implementation of the instructions above.
+
+Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There you will see our JSConfUY app with the **_venue view_** and its map DONE.
+
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%200.16.54.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+
+If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/fb02948...7bfcf29) between the initial commit ([`fb02948`](https://github.com/startapplabs/jsconfuy/commit/fb029480b5d67126ceabf632a608cbd3f2b33dcc)) and the final commit ([`7bfcf29`](https://github.com/startapplabs/jsconfuy/commit/7bfcf293a82be70489849e58306e80afb5aca697)) of this step.
+
+### What we have learned so far:
+- Use the **_web stack_** to build mobile apps
+- Reuse **_AngularJS directives_** in our app
+
+
+## <a name="step-4">Step 4</a>
+
+This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/33) slide of the **_presentation_**, and this **_commit_** ([`7bfcf29`](https://github.com/startapplabs/jsconfuy/commit/7bfcf293a82be70489849e58306e80afb5aca697)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout -f 7bfcf29`
+
+In this step we are going to work on the layout of the **_agenda view_**. For this view we need to:
+- Show the **_schedule for both days_** of the conference
+- Show **_information_** about each event
+
+Again, Ionic has awesome components, in this case [**_tabs_**](http://ionicframework.com/docs/components/#striped-style-tabs) will work perfectly for displaying both days schedule in a clean and organized manner.
+
+The final point of this step is this **_commit_** ([`9d797d7`](https://github.com/startapplabs/jsconfuy/commit/9d797d7ebad844e8cb376e710c9ac05db3cecf32)), run `git checkout 9d797d7` and you will see the implementation of the instructions above.
+
+Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There you will see our JSConfUY app with the **_agenda view_** and a tabs component showing both days schedule.
+
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%200.38.19.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%200.38.22.png" style="width:45%; border:1px solid #ccc;">
+
+If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/7bfcf29...9d797d7) between the initial commit ([`7bfcf29`](https://github.com/startapplabs/jsconfuy/commit/7bfcf293a82be70489849e58306e80afb5aca697)) and the final commit ([`9d797d7`](https://github.com/startapplabs/jsconfuy/commit/9d797d7ebad844e8cb376e710c9ac05db3cecf32)) of this step.
+
+### What we have learned so far:
+- Use **_advanced components_** such as tabs for our mobile app layout
+
+
+
+## <a name="step-5">Step 5</a>
 
 
 
