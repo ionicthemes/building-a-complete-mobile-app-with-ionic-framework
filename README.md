@@ -41,6 +41,8 @@ Follow this links if you want more information:
 
 ## <a name="step-0">Step 0</a>
 
+This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/28) slide of the **_presentation_**.
+
 ### Git & `ionic start`
 First we need to link this new Ionic project with our reference repo on github. Clone and checkout the initial commit of this repo so we can start working on the app:
 - `git clone https://github.com/startapplabs/jsconfuy.git`
@@ -62,7 +64,8 @@ Finally to see the current state of the project run:
 
 If you followed the procedure above, after serving the app you can see that the **_Ionic dev server_** is running on `http://localhost:8100` and there you should see one of Ionics starter projects which showcases an app with a side menu.
 
-# ACA PONER SCREENSHOTS
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2020.56.55.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2020.56.50.png" style="width:45%; border:1px solid #ccc;">
 
 ### What we have lerned so far:
 - Bind the project to an existing **_Github repo_**
@@ -75,9 +78,19 @@ If you followed the procedure above, after serving the app you can see that the 
 
 ## <a name="step-1">Step 1</a>
 
-This commit ([`e8d787b`](https://github.com/startapplabs/jsconfuy/commit/e8d787b489c7f29e2b11a58169be4d16a70e1914)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout e8d787b`
+This step corresponds with [this](http://startapplabs.github.io/starting-with-ionic/#/30) slide of the **_presentation_**, and this **_commit_** ([`e8d787b`](https://github.com/startapplabs/jsconfuy/commit/e8d787b489c7f29e2b11a58169be4d16a70e1914)) represents the starting point of this step. Please checkout this commit so we are all in the same page: `git checkout e8d787b`
 
+In this step we are going to remove all the example files that came with the **_Ionic starter project_** and add our own starter files.
 
+This app will have information about Uruguay's Javascript Conference 2015 (JSConfUY 2015). To serve that pourpose the content will be the following:
+- 3 main views containing
+    - **_Speakers_** information
+    - **_Venue_** information
+    - **_Agenda_** information
+- 1 **_side menu_** for a clear navigation
+- 1 sub view to show extended information of **_events_** such as keynotes, talks, workshops, cofee breaks, etc
+
+This table ilustrates the navigation between views
 
 
 
