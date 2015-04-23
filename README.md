@@ -3,13 +3,13 @@
 In this workshop we are going to go through the process of building a hybrid mobile app using **_Ionic Framework_**.
 This repo will serve as a guide and in this `README.md` you can find all the steps and instructions needed to build the app.
 
-* [Here](http://startapplabs.github.io/starting-with-ionic/#/){:target="_blank"} you can find the **_slides_** of the presentation at the JSConfUY 2015
+* [Here](http://startapplabs.github.io/starting-with-ionic/#/) you can find the **_slides_** of the presentation at the JSConfUY 2015
 * [Here](https://jsconfuy2015.herokuapp.com/) you can find a hosted version of the app we are going to build
 * You can also **_deploy_** your own copy of the app using this button: [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/startapplabs/jsconfuy/tree/master)
-* You can download the app from **_Apple App Store_** [here]()
-* You can download the app from **_Google Play_** [here]()
-* *[If the app isn't yet approved]* This is the ID (`350a3330`) of the JSConfUY app on [**_Ionic View_**](http://view.ionic.io/). If you want to test the app in your device you can follow [these steps](http://blog.ionic.io/view-app-is-alive/) and get the app through Ionic View
-* *[If the app isn't yet approved]* And you are an Android user, you can download the `.apk` [here]()
+<!-- * You can download the app from **_Apple App Store_** [here]() -->
+<!-- * You can download the app from **_Google Play_** [here]() -->
+* This is the ID (`7364750e`) of the JSConfUY app on [**_Ionic View_**](http://view.ionic.io/). If you want to test the app in your device you can follow [these steps](http://blog.ionic.io/view-app-is-alive/) and get the app through Ionic View
+* If you are an Android user, you can download the `.apk` [here](https://dl.dropboxusercontent.com/u/30675090/jsconfuy/JSConfUY.apk)
 
 **Notice:**
 * This is not a mobile web, after compiled you will get a native app that uses web technologies (JS, CSS, HTML). The hosted example is just for you to see how the app is going to be, but remember that what you are going to see in the hosted version is a pre build example of the app, all the interactions with native mobile APIs (inAppBrowser, Social Share, etc.) won't be available.
