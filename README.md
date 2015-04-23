@@ -26,13 +26,13 @@ You can find the **_Ionic_** official installation documentation [here](http://i
 
 1. Make sure you have an up-to-date version of **_Node.js_** installed on your system. If you don't have **_Node.js_** installed, you can install it from [here](http://nodejs.org/).
 2. Open a terminal (Mac) or a command interpreter (`cmd`, Windows), and install **_Cordova_** and **_Ionic_**:
-- `npm install -g cordova`
-- `npm install -g ionic`
-- On a Mac, you may have to use `sudo` depending on your system configuration: `sudo npm install -g cordova ionic`
+	- `npm install -g cordova`
+	- `npm install -g ionic`
+	- On a Mac, you may have to use `sudo` depending on your system configuration: `sudo npm install -g cordova ionic`
 3. If you already have **_Cordova_** and **_Ionic_** installed on your computer, make sure you update to the latest version:
-- `npm update -g cordova`
-- `npm update -g ionic`
-- Or `sudo npm update -g cordova ionic`
+	- `npm update -g cordova`
+	- `npm update -g ionic`
+	- Or `sudo npm update -g cordova ionic`
 
 Follow this links if you want more information:
 * [Ionic **_Getting started_** guide](http://ionicframework.com/getting-started)
@@ -82,9 +82,9 @@ In this step we are going to remove all the example files that came with the **_
 
 This app will have information about Uruguay's Javascript Conference 2015 (JSConfUY 2015). To serve that purpose the content will be the following:
 - 3 main views containing
-- **_Speakers_** information
-- **_Venue_** information
-- **_Agenda_** information
+	- **_Speakers_** information
+	- **_Venue_** information
+	- **_Agenda_** information
 - 1 **_side menu_** for a clear navigation
 - 1 sub view to show extended information of **_events_** such as keynotes, talks, workshops, coffee breaks, etc.
 
