@@ -65,7 +65,8 @@
     ],
     "background_img":"img/speakers/michael_cetrulo.jpg",
     "description":"",
-    "room":""
+    "room":"",
+    "date":"day1"
   },
   {
     "id":"6",
@@ -240,23 +241,6 @@
     "date":"day1"
   },
   {
-    "id":"18",
-    "title":"JavaScript ♥ Unicode",
-    "time_from":"16:45 pm",
-    "time_to":"17:10 pm",
-    "type":"talk",
-    "speakers":[
-      {
-        "name":"Mathias Bynens",
-        "image":"img/speakers/mathias_bynens.jpg"
-      }
-    ],
-    "background_img":"img/speakers/mathias_bynens.jpg",
-    "description":"In this talk we’ll take a look at the various ways JavaScript relies on Unicode, what the consequences are for JavaScript developers wishing to support full Unicode, and how the upcoming ECMAScript 6 (or ES 2015 as it’s being called nowadays) will improve this.",
-    "room":"",
-    "date":"day1"
-  },
-  {
     "id":"19",
     "title":"Node and the Internet of Things",
     "time_from":"16:15 pm",
@@ -270,6 +254,23 @@
     ],
     "background_img":"img/speakers/julian_duque.jpg",
     "description":"In this workshop you'll learn how to implement an IoT service using Node. We will use Arduino with Johnny-Five as IoT powered device and we will develop an MQTT server to receive realtime information from devices, also we will evaluate some Cloud Platforms to work with IoT.",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"18",
+    "title":"JavaScript ♥ Unicode",
+    "time_from":"16:45 pm",
+    "time_to":"17:10 pm",
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Mathias Bynens",
+        "image":"img/speakers/mathias_bynens.jpg"
+      }
+    ],
+    "background_img":"img/speakers/mathias_bynens.jpg",
+    "description":"In this talk we’ll take a look at the various ways JavaScript relies on Unicode, what the consequences are for JavaScript developers wishing to support full Unicode, and how the upcoming ECMAScript 6 (or ES 2015 as it’s being called nowadays) will improve this.",
     "room":"",
     "date":"day1"
   },
