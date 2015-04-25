@@ -6,8 +6,8 @@ This repo will serve as a guide and in this `README.md`, you can find all the st
 * [Here](http://startapplabs.github.io/starting-with-ionic/#/) you can find the **_slides_** of the presentation at the JSConfUY 2015
 * [Here](https://jsconfuy2015.herokuapp.com/) you can find a hosted version of the app we are going to build
 * You can also **_deploy_** your own copy of the app using this button: [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/startapplabs/jsconfuy/tree/master)
-<!-- * You can download the app from **_Apple App Store_** [here]() -->
-<!-- * You can download the app from **_Google Play_** [here]() -->
+<!--- * You can download the app from **_Apple App Store_** [here]() --->
+<!--- * You can download the app from **_Google Play_** [here]() --->
 * This is the ID (`7364750e`) of the JSConfUY app on [**_Ionic View_**](http://view.ionic.io/). If you want to test the app in your device, you can follow [these steps](http://blog.ionic.io/view-app-is-alive/) and get the app through Ionic View
 * If you are an Android user, you can download the `.apk` [here](https://dl.dropboxusercontent.com/u/30675090/jsconfuy/JSConfUY.apk)
 
