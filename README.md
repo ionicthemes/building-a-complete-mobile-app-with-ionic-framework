@@ -1,5 +1,7 @@
 # JSConfUY
 
+## View the complete tutorial here: https://ionicthemes.com/tutorials/about/building-a-complete-mobile-app-with-ionic-framework
+
 In this workshop, we are going to go through the process of building a hybrid mobile app using **_Ionic Framework_**.
 This repo will serve as a guide and in this `README.md`, you can find all the steps and instructions needed to build the app.
 
