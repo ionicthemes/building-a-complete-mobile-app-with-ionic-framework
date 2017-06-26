@@ -28,10 +28,12 @@ You can find the **_Ionic_** official installation documentation [here](http://i
 2. Open a terminal (Mac) or a command interpreter (`cmd`, Windows), and install **_Cordova_** and **_Ionic_**:
 	- `npm install -g cordova`
 	- `npm install -g ionic`
+	- `npm install -g bower`
 	- On a Mac, you may have to use `sudo` depending on your system configuration: `sudo npm install -g cordova ionic`
 3. If you already have **_Cordova_** and **_Ionic_** installed on your computer, make sure you update to the latest version:
 	- `npm update -g cordova`
 	- `npm update -g ionic`
+	- `npm update -g bower`
 	- Or `sudo npm update -g cordova ionic`
 
 Follow these links if you want more information:
