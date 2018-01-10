@@ -1,6 +1,8 @@
 # JSConfUY
 
-## View the complete tutorial here: https://ionicthemes.com/tutorials/about/building-a-complete-mobile-app-with-ionic-framework
+### View the complete tutorial in: https://ionicthemes.com/tutorials/about/building-a-complete-mobile-app-with-ionic-framework
+
+**Notice:** This is an Ionic v1 tutorial, if you are looking for an Ionic v3 tutorial please go to https://ionicthemes.com/tutorials/about/building-a-complete-mobile-app-with-ionic-3
 
 In this workshop, we are going to go through the process of building a hybrid mobile app using **_Ionic Framework_**.
 This repo will serve as a guide and in this `README.md`, you can find all the steps and instructions needed to build the app.
@@ -65,8 +67,8 @@ Finally, to see the current state of the project, run:
 
 If you followed the procedure above, after serving the app, you can see that the **_Ionic dev server_** is running on `http://localhost:8100` and there, you will see one of Ionic's starter projects, which showcases an app with a side menu.
 
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2020.56.55.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2020.56.50.png" style="width:45%; border:1px solid #ccc;">
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2020.56.55.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2020.56.50.png)
 
 ### What we have learned so far:
 - Bind the project to an existing **_Github repo_**
@@ -92,7 +94,7 @@ This app will have information about Uruguay's Javascript Conference 2015 (JSCon
 
 This image illustrates the navigation between views
 <div style="text-align:center;">
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/CommunicationDiagram1.png" style="border:1px solid #ccc;">
+<img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/CommunicationDiagram1.png" style="border:1px solid #ccc;">
 </div>
 
 To achieve this, we are going to:
@@ -108,11 +110,11 @@ The final point of this step is this **_commit_** ([`296941e`](https://github.co
 
 Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There you will see our JSConfUY app with the navigation DONE.
 
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.52.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.49.png" style="width:45%; border:1px solid #ccc;">
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.52.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.49.png)
 
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.41.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.56.png" style="width:45%; border:1px solid #ccc;">
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.41.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2022.57.56.png)
 
 If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/e8d787b...296941e) between the initial commit ([`e8d787b`](https://github.com/startapplabs/jsconfuy/commit/e8d787b489c7f29e2b11a58169be4d16a70e1914)) and the final commit ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)) of this step.
 
@@ -136,7 +138,7 @@ The final point of this step is this **_commit_** ([`fb02948`](https://github.co
 
 Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There, you will see our JSConfUY app with the **_speakers view_** DONE.
 
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2023.49.50.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2020.4.2015%2023.49.50.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
 
 If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/296941e...fb02948) between the initial commit ([`296941e`](https://github.com/startapplabs/jsconfuy/commit/296941e4424e3f3a4b4c0bd8d3b1d9f24e807dc1)) and the final commit ([`fb02948`](https://github.com/startapplabs/jsconfuy/commit/fb029480b5d67126ceabf632a608cbd3f2b33dcc)) of this step.
 
@@ -162,7 +164,7 @@ The final point of this step is this **_commit_** ([`7bfcf29`](https://github.co
 
 Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There, you will see our JSConfUY app with the **_venue view_** and its map DONE.
 
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%200.16.54.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
+<img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2021.4.2015%200.16.54.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
 
 If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/fb02948...7bfcf29) between the initial commit ([`fb02948`](https://github.com/startapplabs/jsconfuy/commit/fb029480b5d67126ceabf632a608cbd3f2b33dcc)) and the final commit ([`7bfcf29`](https://github.com/startapplabs/jsconfuy/commit/7bfcf293a82be70489849e58306e80afb5aca697)) of this step.
 
@@ -185,8 +187,9 @@ The final point of this step is this **_commit_** ([`9d797d7`](https://github.co
 
 Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There, you will see our JSConfUY app with the **_agenda view_** and a tabs component showing both days' schedule.
 
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%200.38.19.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%200.38.22.png" style="width:45%; border:1px solid #ccc;">
+
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2021.4.2015%200.38.19.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2021.4.2015%200.38.22.png)
 
 If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/7bfcf29...9d797d7) between the initial commit ([`7bfcf29`](https://github.com/startapplabs/jsconfuy/commit/7bfcf293a82be70489849e58306e80afb5aca697)) and the final commit ([`9d797d7`](https://github.com/startapplabs/jsconfuy/commit/9d797d7ebad844e8cb376e710c9ac05db3cecf32)) of this step.
 
@@ -231,8 +234,10 @@ The final point of this step is this **_commit_** ([`14dd74a`](https://github.co
 
 Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There, you will see our JSConfUY app with real data for the event.
 
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.25.59.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.26.07.png" style="width:45%; border:1px solid #ccc;">
+
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.25.59.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/iOS%20Simulator%20Screen%20Shot%2021.4.2015%201.26.07.png)
+
 
 If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/9d797d7...14dd74a) between the initial commit ([`9d797d7`](https://github.com/startapplabs/jsconfuy/commit/9d797d7ebad844e8cb376e710c9ac05db3cecf32)) and the final commit ([`14dd74a`](https://github.com/startapplabs/jsconfuy/commit/14dd74ae27b03eaedc518e53663472938d6f6861)) of this step.
 
@@ -261,8 +266,9 @@ The final point of this step is this **_commit_** ([`73cec82`](https://github.co
 
 Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There, you will see our JSConfUY app with the Ionic loader and slide box integrated but as you are accessing the app through the browser, you won't see either the social sharing plugin or the inAppBroswer plugin. You will need to install and test the app in your phone to see those in action.
 
-<img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/share.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/inAppBrowser.png" style="width:45%; border:1px solid #ccc;">
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/share.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/inAppBrowser.png)
+
 
 If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/14dd74a...73cec82) between the initial commit ([`14dd74a`](https://github.com/startapplabs/jsconfuy/commit/14dd74ae27b03eaedc518e53663472938d6f6861)) and the final commit ([`73cec82`](https://github.com/startapplabs/jsconfuy/commit/73cec828737e7f72d8f8d478a80de4aa9c206ed1)) of this step.
 
@@ -330,22 +336,21 @@ $get-directions-btn-bg: #419e61;
 $get-directions-btn-color: #FFFFFF;
 ```
 
-<img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/sass1.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/sass2.png" style="width:45%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30675090/jsconfuy/sass3.png" style="width:45%; border:1px solid #ccc;">
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/sass1.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/sass2.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/sass3.png)
+
 
 The final point of this step is this **_commit_** ([`6eaea0f`](https://github.com/startapplabs/jsconfuy/commit/6eaea0f704084d18f7c643f1aed5819136fd7cc3)). Run `git checkout 6eaea0f` and you will see the implementation of the instructions above.
 
 Serve the app with `ionic serve` and look at the **_Ionic dev server_** running on `http://localhost:8100`. There, you will see our JSConfUY finished with a professional and polished look.
 
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.50.50.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.50.47.png" style="width:45%; border:1px solid #ccc;">
-
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.50.36.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.51.12.png" style="width:45%; border:1px solid #ccc;">
-
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.51.19.png" style="width:45%; margin-right:8%; border:1px solid #ccc;">
-<img src="https://dl.dropboxusercontent.com/u/30873364/ionWorkshop/iOS%20Simulator%20Screen%20Shot%2021.4.2015%202.51.25.png" style="width:45%; border:1px solid #ccc;">
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/step8_1.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/step8_2.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/step8_3.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/step8_4.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/step8_5.png)
+![](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-complete-mobile-app-with-ionic-framework/step8_6.png)
 
 If you want to see more details of what we have done, take a look at [this comparison](https://github.com/startapplabs/jsconfuy/compare/73cec82...6eaea0f) between the initial commit ([`73cec82`](https://github.com/startapplabs/jsconfuy/commit/73cec828737e7f72d8f8d478a80de4aa9c206ed1)) and the final commit ([`6eaea0f`](https://github.com/startapplabs/jsconfuy/commit/6eaea0f704084d18f7c643f1aed5819136fd7cc3)) of this step.
 
