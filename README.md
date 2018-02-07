@@ -2,6 +2,8 @@
 
 ### View the complete tutorial in: https://ionicthemes.com/tutorials/about/building-a-complete-mobile-app-with-ionic-framework
 
+**Please support this project by simply putting a Github star ⭐. Share this library with friends on Twitter and everywhere else you can. 🙏**
+
 **Notice:** This is an Ionic v1 tutorial, if you are looking for an Ionic v3 tutorial please go to https://ionicthemes.com/tutorials/about/building-a-complete-mobile-app-with-ionic-3
 
 In this workshop, we are going to go through the process of building a hybrid mobile app using **_Ionic Framework_**.
